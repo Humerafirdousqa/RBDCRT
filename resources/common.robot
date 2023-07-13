@@ -303,7 +303,7 @@ Create Order within 7 days
     [Arguments]
     #Home
     #ClickText             Minimize
-    ClickText             Show Navigation Menu
+    #ClickText             Show Navigation Menu
     ClickText             Accounts
     ClickElement          xpath=(//a[@data-refid\="recordId"])[1]
     #ClickText            \# 39 OCEAN PRIME ORLANDO                               partial_match=False
@@ -375,4 +375,4 @@ Create Future Order
     ClickText             Select an Option            anchor=Missed Delivery Reason
     ClickText             No Answer                   anchor=Off Day/Off Frequency Reason
     ClickText             Yes
-    VerifyText            Posted to VIP
+    VerifyText            Pending - Future Order
