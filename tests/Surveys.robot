@@ -12,13 +12,13 @@ Menu Survey
     [Tags]             Surveys
     Login
     Home
-
     ClickText          Accounts
     ClickText          Select a List View: Accounts
     ClickText          menu survey
+    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
     UseTable           Account Name
     ClickCell          r1c9
-    ClickText          Take Survey
+    ClickText          Take Survey    Anchor=Menu Survey
     UseModal           On
     ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
     ClickText          Yes
@@ -30,12 +30,9 @@ Menu Survey
     Picklist           Liquor Brand                Barton
     ClickText          Upload FilesOr drop files
     Choose File        C:\fakepath\MicrosoftTeams-image (56).png
-
     #ClickText          Upload FilesOr drop files
     #ClickText          Upload FilesOr drop files                               C:\\Home\\suite\\MicrosoftTeams-image (56).png
     #ClickText          Open
-
-
     ClickText          Upload FilesOr drop files
     SwitchWindow       1
     ClickText          Home
