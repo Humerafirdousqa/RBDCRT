@@ -11,9 +11,7 @@ Menu Survey
     [Documentation]    This is test Menu Survey Functionality
     [Tags]             Surveys
     Login
-    
-    
-    
+    LaunchApp          Reyes Beverage Group
     ClickText          Accounts
     ClickText          Select a List View: Accounts
     ClickText          menu survey
@@ -35,11 +33,13 @@ Menu Survey
     ClickText          Yes
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText          No                          anchor=Please select the Gin Well Liquor Brand:
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
-    ClickText          Barton
+    PickList           Well Brand            Barton
+    #ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    #ClickText          Barton
     ClickText          No                          anchor=Please select the Rum Well Liquor Brand:
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
-    ClickText          Concierge
+    PickList           Well Brand            Concierge
+    #ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    #ClickText          Concierge
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText          Finish                      2
 
