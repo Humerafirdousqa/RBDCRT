@@ -11,6 +11,9 @@ Menu Survey
     [Documentation]    This is test Menu Survey Functionality
     [Tags]             Surveys
     Login
+    
+    
+    
     ClickText          Accounts
     ClickText          Select a List View: Accounts
     ClickText          menu survey
