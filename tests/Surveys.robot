@@ -11,15 +11,13 @@ Menu Survey
     [Documentation]    This is test Menu Survey Functionality
     [Tags]             Surveys
     Login
-    Home
     ClickText          Accounts
     ClickText          Select a List View: Accounts
     ClickText          menu survey
+    sleep              3s
     ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
     UseTable           Account Name
-    #ClickCell          r1c9
-    ClickText          Take Survey    Anchor=Menu Survey
-    UseModal           On
+    ClickText          Take Survey                 Anchor=Menu Survey
     ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
     ClickText          Yes
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
@@ -28,25 +26,17 @@ Menu Survey
     ClickText          No
     PickList           Liquor Type                 Gin
     Picklist           Liquor Brand                Barton
-    ClickText          Upload FilesOr drop files
-    UseModal           On
     UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    ClickText          Open
-    #Choose File        C:\fakepath\MicrosoftTeams-image (56).png
-    #ClickText          Upload FilesOr drop files
-    #ClickText          Upload FilesOr drop files                               C:\\Home\\suite\\MicrosoftTeams-image (56).png
-    #ClickText          Open
-    #ClickText          Upload FilesOr drop files
-    #SwitchWindow       1
-    #ClickText          Home
-    #ClickText          suite
-    #TypeText           Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    UseModal           Off
-    #UploadFile        verify                      C:\Users\hfirdous\Downloads\MicrosoftTeams-image (56).png
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
     ClickText          Yes
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    ClickText          No                          anchor=Please select the Gin Well Liquor Brand:
+    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    ClickText          Barton
+    ClickText          No                          anchor=Please select the Rum Well Liquor Brand:
+    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    ClickText          Concierge
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText          Finish                      2
 
