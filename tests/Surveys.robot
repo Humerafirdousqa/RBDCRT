@@ -17,7 +17,7 @@ Menu Survey
     ClickText          menu survey
     ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
     UseTable           Account Name
-    ClickCell          r1c9
+    #ClickCell          r1c9
     ClickText          Take Survey    Anchor=Menu Survey
     UseModal           On
     ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
@@ -29,15 +29,18 @@ Menu Survey
     PickList           Liquor Type                 Gin
     Picklist           Liquor Brand                Barton
     ClickText          Upload FilesOr drop files
-    Choose File        C:\fakepath\MicrosoftTeams-image (56).png
+    UseModal           On
+    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    ClickText          Open
+    #Choose File        C:\fakepath\MicrosoftTeams-image (56).png
     #ClickText          Upload FilesOr drop files
     #ClickText          Upload FilesOr drop files                               C:\\Home\\suite\\MicrosoftTeams-image (56).png
     #ClickText          Open
-    ClickText          Upload FilesOr drop files
-    SwitchWindow       1
-    ClickText          Home
-    ClickText          suite
-    TypeText           Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
+    #ClickText          Upload FilesOr drop files
+    #SwitchWindow       1
+    #ClickText          Home
+    #ClickText          suite
+    #TypeText           Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
     UseModal           Off
     #UploadFile        verify                      C:\Users\hfirdous\Downloads\MicrosoftTeams-image (56).png
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
