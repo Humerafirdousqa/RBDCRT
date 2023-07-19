@@ -343,8 +343,6 @@ Create Future Order
     ClickText                   Add Product
     UseTable                    SortProduct Nameicon
     TypeText                    Search by product name, item number, pkg type           Coors Banquet
-    #ClickCell                  r1c5
-    #TypeText                   Search by product name      Coors Banquet 12 - 24oz Cans
     ClickText                   Coors Banquet
     ClickCell                   r1c8                        0
     TypeText                    r1c8                        2
