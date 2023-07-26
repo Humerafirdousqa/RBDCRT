@@ -15,7 +15,6 @@ Create NCR from a Case
     [Documentation]       This is to create NCR
     [Tags]                NCR
     Login
-    Home
     Login As ISR          Regina Peters
     Open Specific case    CasetoOpen=00092147
     ClickText             Create NCR
@@ -30,7 +29,6 @@ Create NCR as an FSR
     [Documentation]       This is to create NCR
     [Tags]                NCR
     Login
-    Home
     Login As FSR          Charles Kirk
     ClickText             New Customer Request        anchor=Live Order
     ${DBARand}=           Generate Random String      6                         [LOWER]
