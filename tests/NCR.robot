@@ -24,6 +24,7 @@ Create NCR from a Case
     ${LastRand}=          Generate Random String      6                         [LOWER]
     Create NCR as ISR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    requestedFor=Charles Kirk                             BU=FDI                    selltype=House Account
     VerifyText            Awaiting Manager Approval
+    
 
 Create NCR as an FSR
     [Documentation]       This is to create NCR
@@ -39,5 +40,23 @@ Create NCR as an FSR
     SwitchWindow          NEW
     Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
     VerifyText            Awaiting Manager Approval
+
+Create NCR as FSR Manager
+    [Documentation]       This is to create NCR
+    [Tags]                NCR
+    Login
+    Home
+    Login As FSR          Jason Wieland
+    ClickText             New Customer Request        anchor=Live Order
+    ${DBARand}=           Generate Random String      6                         [LOWER]
+    ${FirstRand}=         Generate Random String      6                         [LOWER]
+    ${LastRand}=          Generate Random String      6                         [LOWER]
+    ClickText             New Customer Request
+    SwitchWindow          NEW
+    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
+    VerifyText            Approved
+    sleep                 5m
+    RefreshPage
+    VerifyText            Submitted to DMO
 
 
