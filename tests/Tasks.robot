@@ -28,19 +28,9 @@ Create Order
     TypeText              *Comments                   comments
     ClickCheckbox         Select All                  on
     ClickElement          xpath\=//*[@class\='slds-form-element_control slds-grow']
-    DropDown              46:4613;a                   High
-    DropDown              64:4613;a                   Open
-    DropDown              46:6516;a                   High
-    ClickText             Normal
-    DropDown              64:6516;a                   Open
-    ClickText             No order captured
+    DropDown              Priority                   High
+    DropDown              Status                     Open
     ClickCheckbox         Photo Required              on
     ClickCheckbox         Photo Required              off
     ClickText             Save
-    ClickText             Tabs
-    ClickText             Critical Minute
-    ClickText             Links
-    ClickText             Minimize
-    ClickText             Next
-    TypeText              Search...                   \# 39 OCEAN PRIME ORLANDO                  anchor=Home
-    ClickText             \# 39 OCEAN PRIME ORLANDO                               anchor=Account
+  
