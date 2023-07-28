@@ -373,3 +373,31 @@ Create Future Order
     ClickText                   No Answer                   anchor=Off Day/Off Frequency Reason
     ClickText                   Yes
     VerifyText                  Pending - Future Order
+
+
+Verify Command Center for FSR
+    [Documentation]    This is to verify command center for FSR
+    [Arguments]
+    VerifyText         Home
+    VerifyText         DSOF
+    VerifyText         Cases
+    VerifyText         My Open Pinned Products
+    VerifyText         Tasks                       Anchor=2
+    VerifyText         New Customer Requests
+    VerifyText         Newsletter
+    VerifyText         Dashboard                   Anchor=3
+    VerifyText         ELITE Dashboard
+    ClickText          Show menu
+    VerifyText         VIP Begin Day
+    VerifyText         Live Order
+    VerifyText         New Customer Request        Anchor=2
+    VerifyText         Circana Portal
+    VerifyText         Employee Center
+    VerifyText         SipMarket Registration
+    VerifyText         SipMarket Keg Box
+    VerifyText         SipMarket Forgot Password
+    VerifyText         Route Change Requests
+    VerifyText         Training Docs
+    VerifyText         Fintech Evite
+    VerifyText         User Route Update
+    VerifyText         Fintech                     Anchor=2
