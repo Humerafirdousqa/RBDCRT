@@ -375,7 +375,7 @@ Create Future Order
     VerifyText                  Pending - Future Order
 
 
-Verify Command Center for FSR
+Verify Home page for FSR
     [Documentation]    This is to verify command center for FSR
     [Arguments]
     VerifyText         Home
@@ -403,7 +403,7 @@ Verify Command Center for FSR
     VerifyText         Fintech                     Anchor=2
 
     
-Verify Command Center for ISR
+Verify Home page for ISR
     [Documentation]    This is to verify command center for FSR
     [Arguments]
     ClickText          Show Navigation Menu
@@ -428,7 +428,7 @@ Verify Command Center for ISR
     VerifyText         Training Docs
 
 
-Verify Command Center for Merch
+Verify Home page for Merch
     [Documentation]    This is to verify command center for FSR
     [Arguments]  
     VerifyText         Live Order
