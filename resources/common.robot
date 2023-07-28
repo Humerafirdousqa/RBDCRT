@@ -75,6 +75,23 @@ Login As FSR
     Sleep                       2s
 
 
+Login As Merch
+    [Documentation]             Login As different persona. User needs to be logged into Salesforce with Admin rights
+    ...                         before calling this keyword to change persona.
+    ...                         Example:
+    ...                         LoginAs                     Chatter Expert
+    [Arguments]                 ${persona}
+    ClickText                   Setup
+    ClickText                   Setup for current app
+    SwitchWindow                NEW
+    TypeText                    Search Setup                ${persona}                  delay=2
+    ClickText                   User                        anchor=${persona}           delay=5                     # wait for list to populate, then click
+    VerifyText                  Freeze                      timeout=45                  # this is slow, needs longer timeout
+    ClickText                   Login                       anchor=Freeze               delay=1
+    Sleep                       2s
+
+
+
 Fill MFA
     ${mfa_code}=                GetOTP                      ${username}                 ${secret}                   ${login_url}
     TypeSecret                  Verification Code           ${mfa_code}
