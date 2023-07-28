@@ -401,3 +401,38 @@ Verify Command Center for FSR
     VerifyText         Fintech Evite
     VerifyText         User Route Update
     VerifyText         Fintech                     Anchor=2
+
+    
+Verify Command Center for ISR
+    [Documentation]    This is to verify command center for FSR
+    [Arguments]
+    ClickText          Show Navigation Menu
+    ClickText          Home
+    ClickElement       xpath\=//button[@class\='slds-button slds-button_icon-border slds-button_last']
+    VerifyText         Kronos
+    VerifyText         Web VIP
+    VerifyText         Maps - Accounts Near Me
+    VerifyText         Live Order
+    VerifyText         New Customer Request
+    VerifyText         Cisco
+    VerifyText         Route Change Requests
+    VerifyText         SipMarket Registration
+    ClickElement       xpath\=//button[@class\='slds-button slds-button_icon-border slds-button_last']
+    VerifyText         Wall Board East
+    VerifyText         Wall Board West
+    VerifyText         Wall Board NA
+    VerifyText         Web Board
+    VerifyText         Sharepoint
+    VerifyText         Employee Center
+    VerifyText         Circana Portal
+    VerifyText         Training Docs
+
+
+Verify Command Center for Merch
+    [Documentation]    This is to verify command center for FSR
+    [Arguments]  
+    VerifyText         Live Order
+    VerifyText         Employee Center
+    VerifyText         Training Docs
+    VerifyText         Fintech
+    VerifyText         All Newsletters
