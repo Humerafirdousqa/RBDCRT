@@ -15,14 +15,14 @@ Command Center for FSR
     [Tags]             Command Center
     Login
     Login As FSR       Charles Kirk
-    Verify Command Center for FSR
+    Verify Home page for FSR
 
 Command Center for ISR
     [Documentation]    This is to Validate Command Center
     [Tags]             Command Center
     Login
     Login As FSR       Regina Peters
-    Verify Command Center for ISR
+    Verify Home page for ISR
     
 
 Command Center for Merch
@@ -30,4 +30,4 @@ Command Center for Merch
     [Tags]             Command Center
     Login
     Login As Merch      Ronald Starke
-    Verify Command Center for Merch
+    Verify Home page for Merch
