@@ -75,3 +75,4 @@ Command Center for Merch
     VerifyText         Employee Center
     VerifyText         Training Docs
     VerifyText         Fintech
+    VerifyText         All Newsletters
