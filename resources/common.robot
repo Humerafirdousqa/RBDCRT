@@ -431,7 +431,7 @@ Verify Home page for ISR
     VerifyText    Training Documents
 
 Verify Home page for Merch
-    [Documentation]    This is to verify command center for FSR
+    [Documentation]    This is to verify command center for Merch
     [Arguments]  
     VerifyText         Live Order
     VerifyText         Employee Center
