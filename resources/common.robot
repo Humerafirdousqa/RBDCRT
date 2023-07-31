@@ -426,8 +426,8 @@ Verify Home page for ISR
     VerifyText         Circana Portal
     VerifyText         Training Docs
     ClickText          Training Docs
-    SwitchWindow    NEW
-    SwitchWindow    3
+    SwitchWindow       NEW
+    SwitchWindow       3
     VerifyText    Training Documents
 
 Verify Home page for Merch
