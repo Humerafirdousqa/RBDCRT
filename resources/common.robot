@@ -417,7 +417,6 @@ Verify Home page for ISR
     VerifyText         Cisco
     VerifyText         Route Change Requests
     VerifyText         SipMarket Registration
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_icon-border slds-button_last']
     VerifyText         Wall Board East
     VerifyText         Wall Board West
     VerifyText         Wall Board NA
@@ -426,7 +425,10 @@ Verify Home page for ISR
     VerifyText         Employee Center
     VerifyText         Circana Portal
     VerifyText         Training Docs
-
+    ClickText          Training Docs
+    SwitchWindow    NEW
+    SwitchWindow    3
+    VerifyText    Training Documents
 
 Verify Home page for Merch
     [Documentation]    This is to verify command center for FSR
