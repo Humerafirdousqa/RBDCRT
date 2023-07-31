@@ -438,3 +438,7 @@ Verify Home page for Merch
     VerifyText         Training Docs
     VerifyText         Fintech
     VerifyText         All Newsletters
+    ClickText          Training Docs
+    SwitchWindow       NEW
+    SwitchWindow       3
+    VerifyText    Training Documents
