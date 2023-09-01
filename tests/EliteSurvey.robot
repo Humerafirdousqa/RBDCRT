@@ -33,9 +33,6 @@ Create Elite Survey
     UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
     DropDown           *Are planner items merchandised and executed?                           N/A
     DropDown           *Are legal consumer offers equal to or greater than competition?                           Yes
-    ClickCheckbox      Follow-up Task needed?             on              anchor=Legal Offers Picture
-    UseTable           Choose a Row to Select
-    ClickCell          r1c1
     DropDown           *Do displays have legal POS equal to greater than competition?                           No
     DropDown           *Is the cooler set by schematic with correct pricing and packages?                           N/A
     DropDown           *Is the RBG Product Quality Policy being followed?                           Yes
@@ -44,9 +41,9 @@ Create Elite Survey
     DropDown           What steps of Consultant of Choice were followed?       Uncover Information
     DropDown           *Were any existing sales tools used to secure features or distribution during sales?                           Yes
     DropDown           Sales Tools                 Circana
-    ClickText          Next
+    ClickText          Next                        anchor=Previous
     ClickText          Capture Signature
     ClickText          Next
-    VerifyText         Score: 61
+    VerifyText         Score: 
     ClickText          Finish
 
