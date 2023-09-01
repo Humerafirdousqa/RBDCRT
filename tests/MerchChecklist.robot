@@ -26,7 +26,7 @@ Create MerchChecklist
     TypeText           Store Contact Name       store contact name
     TypeText           General Comments         comments with long text ...
     ClickText          Create Merch Checklist
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    #ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText          Create New Task
     ClickText          Create/Update Task
     TypeText           Subject                 task Subject
