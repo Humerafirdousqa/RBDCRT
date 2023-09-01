@@ -196,6 +196,13 @@ Create NCR as ISR
     ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen
+    MultiPickList               Requested Delivery Days     Thursday
+    ClickText                   Move selection to Chosen
+    PickList                    Visit Frequency             Twice Per Week
+    MultiPickList               Visit Day(s)                Monday
+    ClickText                   Move selection to Chosen    anchor=Available
+    MultiPickList               Visit Day(s)                Thursday
+    ClickText                   Move selection to Chosen    anchor=Available
     PickList                    Delivery Open Time #1       6:00
     PickList                    Delivery Close Time #1      9:00
     PickList                    Package Type                Draft & Pkg
@@ -269,6 +276,13 @@ Create NCR as FSR
     ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen
+    MultiPickList               Requested Delivery Days     Thursday
+    ClickText                   Move selection to Chosen
+    PickList                    Visit Frequency             Twice Per Week
+    MultiPickList               Visit Day(s)                Monday
+    ClickText                   Move selection to Chosen    anchor=Available
+    MultiPickList               Visit Day(s)                Thursday
+    ClickText                   Move selection to Chosen    anchor=Available
     PickList                    Delivery Open Time #1       6:00
     PickList                    Delivery Close Time #1      9:00
     PickList                    Package Type                Draft & Pkg
@@ -376,69 +390,69 @@ Create Future Order
 
 
 Verify Home page for FSR
-    [Documentation]    This is to verify command center for FSR
+    [Documentation]             This is to verify command center for FSR
     [Arguments]
-    VerifyText         Home
-    VerifyText         DSOF
-    VerifyText         Cases
-    VerifyText         My Open Pinned Products
-    VerifyText         Tasks                       Anchor=2
-    VerifyText         New Customer Requests
-    VerifyText         Newsletter
-    VerifyText         Dashboard                   Anchor=3
-    VerifyText         ELITE Dashboard
-    ClickText          Show menu
-    VerifyText         VIP Begin Day
-    VerifyText         Live Order
-    VerifyText         New Customer Request        Anchor=2
-    VerifyText         Circana Portal
-    VerifyText         Employee Center
-    VerifyText         SipMarket Registration
-    VerifyText         SipMarket Keg Box
-    VerifyText         SipMarket Forgot Password
-    VerifyText         Route Change Requests
-    VerifyText         Training Docs
-    VerifyText         Fintech Evite
-    VerifyText         User Route Update
-    VerifyText         Fintech                     Anchor=2
+    VerifyText                  Home
+    VerifyText                  DSOF
+    VerifyText                  Cases
+    VerifyText                  My Open Pinned Products
+    VerifyText                  Tasks                       Anchor=2
+    VerifyText                  New Customer Requests
+    VerifyText                  Newsletter
+    VerifyText                  Dashboard                   Anchor=3
+    VerifyText                  ELITE Dashboard
+    ClickText                   Show menu
+    VerifyText                  VIP Begin Day
+    VerifyText                  Live Order
+    VerifyText                  New Customer Request        Anchor=2
+    VerifyText                  Circana Portal
+    VerifyText                  Employee Center
+    VerifyText                  SipMarket Registration
+    VerifyText                  SipMarket Keg Box
+    VerifyText                  SipMarket Forgot Password
+    VerifyText                  Route Change Requests
+    VerifyText                  Training Docs
+    VerifyText                  Fintech Evite
+    VerifyText                  User Route Update
+    VerifyText                  Fintech                     Anchor=2
 
-    
+
 Verify Home page for ISR
-    [Documentation]    This is to verify command center for FSR
+    [Documentation]             This is to verify command center for FSR
     [Arguments]
-    ClickText          Show Navigation Menu
-    ClickText          Home
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_icon-border slds-button_last']
-    VerifyText         Kronos
-    VerifyText         Web VIP
-    VerifyText         Maps - Accounts Near Me
-    VerifyText         Live Order
-    VerifyText         New Customer Request
-    VerifyText         Cisco
-    VerifyText         Route Change Requests
-    VerifyText         SipMarket Registration
-    VerifyText         Wall Board East
-    VerifyText         Wall Board West
-    VerifyText         Wall Board NA
-    VerifyText         Web Board
-    VerifyText         Sharepoint
-    VerifyText         Employee Center
-    VerifyText         Circana Portal
-    VerifyText         Training Docs
-    ClickText          Training Docs
-    SwitchWindow       NEW
-    SwitchWindow       3
-    VerifyText    Training Documents
+    ClickText                   Show Navigation Menu
+    ClickText                   Home
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_icon-border slds-button_last']
+    VerifyText                  Kronos
+    VerifyText                  Web VIP
+    VerifyText                  Maps - Accounts Near Me
+    VerifyText                  Live Order
+    VerifyText                  New Customer Request
+    VerifyText                  Cisco
+    VerifyText                  Route Change Requests
+    VerifyText                  SipMarket Registration
+    VerifyText                  Wall Board East
+    VerifyText                  Wall Board West
+    VerifyText                  Wall Board NA
+    VerifyText                  Web Board
+    VerifyText                  Sharepoint
+    VerifyText                  Employee Center
+    VerifyText                  Circana Portal
+    VerifyText                  Training Docs
+    ClickText                   Training Docs
+    SwitchWindow                NEW
+    SwitchWindow                3
+    VerifyText                  Training Documents
 
 Verify Home page for Merch
-    [Documentation]    This is to verify command center for Merch
-    [Arguments]  
-    VerifyText         Live Order
-    VerifyText         Employee Center
-    VerifyText         Training Docs
-    VerifyText         Fintech
-    VerifyText         All Newsletters
-    ClickText          Training Docs
-    SwitchWindow       NEW
-    SwitchWindow       3
-    VerifyText    Training Documents
+    [Documentation]             This is to verify command center for Merch
+    [Arguments]
+    VerifyText                  Live Order
+    VerifyText                  Employee Center
+    VerifyText                  Training Docs
+    VerifyText                  Fintech
+    VerifyText                  All Newsletters
+    ClickText                   Training Docs
+    SwitchWindow                NEW
+    SwitchWindow                3
+    VerifyText                  Training Documents
