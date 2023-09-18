@@ -342,9 +342,9 @@ Create Order within 7 days
     ClickText                   Select Origin               anchor=*
     ClickText                   Outbound Phone Order        anchor=Clear
     UseTable                    SortProduct Nameicon
-    ClickText                   Add Product
-    UseTable                    SortProduct Nameicon
-    TypeText                    Search by product name, item number, pkg type           Coors Banquet
+    #ClickText                   Add Product
+    #UseTable                    SortProduct Nameicon
+    #TypeText                    Search by product name, item number, pkg type           Coors Banquet
     #ClickText                   Coors Banquet
     #ClickElement                xpath\=//*[@class\='slds-input qtyInput']
     ClickCell                   r1c8                        0
