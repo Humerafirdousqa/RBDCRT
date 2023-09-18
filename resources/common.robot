@@ -346,9 +346,9 @@ Create Order within 7 days
     #UseTable                    SortProduct Nameicon
     #TypeText                    Search by product name, item number, pkg type           Coors Banquet
     #ClickText                   Coors Banquet
-    #ClickElement                xpath\=//*[@class\='slds-input qtyInput']
-    ClickCell                   r1c8                        0
-    TypeText                    r1c8                        2
+    ClickElement                xpath\=//*[@class\='slds-input qtyInput']
+    #ClickCell                   r1c8                        0
+    TypeText                    xpath\=//*[@class\='slds-input qtyInput']                        2
     sleep                       3s
     ClickText                   Apply Changes
     Sleep                       3s
