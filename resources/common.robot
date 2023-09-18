@@ -373,12 +373,12 @@ Create Future Order
     ClickText                   Select Origin               anchor=*
     ClickText                   Outbound Phone Order        anchor=Clear
     UseTable                    SortProduct Nameicon
-    ClickText                   Add Product
-    UseTable                    SortProduct Nameicon
-    TypeText                    Search by product name, item number, pkg type           Coors Banquet
-    ClickText                   Coors Banquet
-    ClickCell                   r1c8                        0
-    TypeText                    r1c8                        2
+    #ClickText                   Add Product
+    #UseTable                    SortProduct Nameicon
+    #TypeText                    Search by product name, item number, pkg type           Coors Banquet
+    #ClickText                   Coors Banquet
+    ClickElement                xpath\=//*[@class\='slds-input qtyInput']
+    TypeText                    xpath\=//*[@class\='slds-input qtyInput']                        2
     sleep                       3s
     ClickText                   Apply Changes
     Sleep                       3s
