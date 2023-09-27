@@ -49,11 +49,11 @@ Create NCR as FSR Manager
     ${DBARand}=           Generate Random String      6                         [LOWER]
     ${FirstRand}=         Generate Random String      6                         [LOWER]
     ${LastRand}=          Generate Random String      6                         [LOWER]
-    ClickText             New Customer Request
+    ClickText             New Customer Request        index=2
     SwitchWindow          NEW
     Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
     VerifyText            Approved
-    sleep                 5m
+    sleep                 10m
     RefreshPage
     VerifyText            Submitted to DMO
 
