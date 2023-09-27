@@ -35,12 +35,12 @@ Create FailedScan
     TypeText           Account                     39 Ocean Prime
     ComboBox           Search Accounts...          \# 39 OCEAN PRIME ORLANDO
     ClickElement       xpath\=//*[@class\='slds-select']
-    #PickList          Failed Scan Reason           Item Not Scanning / Not Found / Not on File
-    DropDown    *    Item Not Scanning / Not Found / Not on File
-    ClickText        New Failed Scan
-    DropDown           Is this item in the schematic?    YES
+    #PickList          Failed Scan Reason          Item Not Scanning / Not Found / Not on File
+    DropDown           *                           Item Not Scanning / Not Found / Not on File
     ClickText          Next
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    DropDown           Is this item in the schematic?                          YES
     ClickText          Next
+    #UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    #ClickText          Next
     ClickText          Finish
     UseModal           Off
