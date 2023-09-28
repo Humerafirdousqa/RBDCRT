@@ -28,8 +28,8 @@ Create Order
     TypeText              *Comments                   comments
 
 
-    ClickCheckbox         Select All                  on
-    ClickCheckbox         xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
+    ClickCheckbox         Select All                  Anchor=1
+    #ClickCheckbox         xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
     #ClickElement         xpath\=//*[@class\='slds-form-element_control slds-grow']
     DropDown              Priority                    High
     DropDown              Status                      Open
