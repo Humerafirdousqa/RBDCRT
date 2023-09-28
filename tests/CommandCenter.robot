@@ -21,7 +21,7 @@ Command Center for ISR
     [Documentation]    This is to Validate Command Center
     [Tags]             Command Center
     Login
-    Login As FSR       Regina Peters
+    Login As ISR       Regina Peters
     Verify Home page for ISR
     
 
