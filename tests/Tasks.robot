@@ -27,13 +27,13 @@ Create Order
     Select Future Date    10 days                     Due Date
     UseTable              Choose a RowSelect All
     TypeText              *Comments                   comments
-    #ClickCheckbox         Name                        on                          Anchor=1
-    #ClickCheckbox    Select All    on                        Anchor=1    Index=Name
-    #ClickCheckbox         Name    on    1    Account Team
+    #ClickCheckbox        Name                        on                          Anchor=1
+    #ClickCheckbox        Select All                  on                          Anchor=1        Index=Name
+    #ClickCheckbox        Name                        on                          1               Account Team
     #ClickCheckbox        xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
     #ClickElement         xpath\=//*[@class\='slds-checkbox_faux']
-    UseTable              Account Team
-    ClickCheckbox        Select All                   on                        Account Team
+    #UseTable              Account Team
+    ClickCheckbox         Account Team                  on                        Anchor=Name
     DropDown              Priority                    High
     DropDown              Status                      Open
     ClickCheckbox         Photo Required              on
