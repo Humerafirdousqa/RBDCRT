@@ -27,6 +27,7 @@ Create MerchCheckout with Breakage
     UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=1
     UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=2
     UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=3
+    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=4
     ClickText             Update/Close Checkout
 
 
