@@ -7,8 +7,8 @@ Suite Teardown            End suite
 *** Test Cases ***
 
 Create Order
-    [Documentation]       This is to create order
-    [Tags]                Orders
+    [Documentation]       This is to create Task
+    [Tags]                Tasks
     Login
     Home
     Login As ISR          Regina Peters
@@ -28,12 +28,12 @@ Create Order
     UseTable              Choose a RowSelect All
     TypeText              *Comments                   comments
     #ClickCheckbox        Name                        on                          Anchor=1
-    #ClickCheckbox        Select All                  on                          Anchor=1        Index=Name
-    #ClickCheckbox        Name                        on                          1               Account Team
+    #ClickCheckbox        Select All                  on                          Anchor=1       Index=Name
+    #ClickCheckbox        Name                        on                          1              Account Team
     #ClickCheckbox        xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
-    #ClickElement         xpath\=//*[@class\='slds-checkbox_faux']
-    #UseTable              Account Team
-    ClickCheckbox         Account Team                  on                        Anchor=Name
+    ClickElement          xpath\=//*[@class\='slds-checkbox_faux']
+    #UseTable             Account Team
+    ClickCheckbox         Name                        on                          Anchor=Name
     DropDown              Priority                    High
     DropDown              Status                      Open
     ClickCheckbox         Photo Required              on
