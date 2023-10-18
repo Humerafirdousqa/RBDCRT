@@ -31,7 +31,7 @@ Create Order
     #ClickCheckbox        Select All                  on                          Anchor=1       Index=Name
     #ClickCheckbox        Name                        on                          1              Account Team
     #ClickCheckbox        xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
-    ClickElement          xpath\=//*[@class\='slds-checkbox_faux']
+    #ClickElement          xpath\=//*[@class\='slds-checkbox_faux']
     #UseTable             Account Team
     ClickCheckbox         Name                        on                          Anchor=Name
     DropDown              Priority                    High
