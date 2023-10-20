@@ -342,13 +342,13 @@ Create Order within 7 days
     ClickText                   Select Origin               anchor=*
     ClickText                   Outbound Phone Order        anchor=Clear
     UseTable                    SortProduct Nameicon
-    #ClickText                   Add Product
-    #UseTable                    SortProduct Nameicon
-    #TypeText                    Search by product name, item number, pkg type           Coors Banquet
-    #ClickText                   Coors Banquet
+    #ClickText                  Add Product
+    #UseTable                   SortProduct Nameicon
+    #TypeText                   Search by product name, item number, pkg type           Coors Banquet
+    #ClickText                  Coors Banquet
     ClickElement                xpath\=//*[@class\='slds-input qtyInput']
-    #ClickCell                   r1c8                        0
-    TypeText                    xpath\=//*[@class\='slds-input qtyInput']                        2
+    #ClickCell                  r1c8                        0
+    TypeText                    xpath\=//*[@class\='slds-input qtyInput']               2
     sleep                       3s
     ClickText                   Apply Changes
     Sleep                       3s
@@ -373,12 +373,12 @@ Create Future Order
     ClickText                   Select Origin               anchor=*
     ClickText                   Outbound Phone Order        anchor=Clear
     UseTable                    SortProduct Nameicon
-    #ClickText                   Add Product
-    #UseTable                    SortProduct Nameicon
-    #TypeText                    Search by product name, item number, pkg type           Coors Banquet
-    #ClickText                   Coors Banquet
+    #ClickText                  Add Product
+    #UseTable                   SortProduct Nameicon
+    #TypeText                   Search by product name, item number, pkg type           Coors Banquet
+    #ClickText                  Coors Banquet
     ClickElement                xpath\=//*[@class\='slds-input qtyInput']
-    TypeText                    xpath\=//*[@class\='slds-input qtyInput']                        2
+    TypeText                    xpath\=//*[@class\='slds-input qtyInput']               2
     sleep                       3s
     ClickText                   Apply Changes
     Sleep                       3s
@@ -458,27 +458,55 @@ Verify Home page for Merch
     SwitchWindow                NEW
     SwitchWindow                3
     VerifyText                  Training Documents
-Profit Calculator
+Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText           Competitor Beer Name        beer1
-    TypeText           Price per Keg (Price to Retailer)                       23
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux']
-    ClickText          1/4 Barrel
-    TypeText           Price per Serving (Price to Consumer)                   25
-    TypeText           Serving Size in Ounces (Pour Size)                      5
-    TypeText           Velocity per Month (Number of Kegs)                     5
-    ClickText          Add a Product to Compare
-    ClickCheckbox      Use Reyes Product?YesNo     on                          Anchor=2
-    TypeText           Search by product name, item number, pkg type           mill        Anchor=2
-    Sleep              3s
-    ClickText          Miller Lite Half Barrel
-    TypeText           Price per Serving (Price to Consumer)                   110         Anchor=2
-    TypeText           Serving Size in Ounces (Pour Size)                      5           Anchor=2
-    TypeText           Velocity per Month (Number of Kegs)                     5           Anchor=2
-    ClickText          Calculate
-    ClickText          Save for Later
-    TypeText           Profit Calculation Record Name                          Draft Beer profit calculation
-    ClickText          Save                        partial_match=False
-    ClickText          Draft Beer profit calculation
-    VerifyText         Profit Calculation\Draft Beer profit calculation
+    TypeText                    Competitor Beer Name        beer1
+    TypeText                    Price per Keg (Price to Retailer)                       23
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickText                   1/4 Barrel
+    TypeText                    Price per Serving (Price to Consumer)                   25
+    TypeText                    Serving Size in Ounces (Pour Size)                      5
+    TypeText                    Velocity per Month (Number of Kegs)                     5
+    ClickText                   Add a Product to Compare
+    ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
+    TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
+    Sleep                       3s
+    ClickText                   Miller Lite Half Barrel
+    TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
+    TypeText                    Serving Size in Ounces (Pour Size)                      5                           Anchor=2
+    TypeText                    Velocity per Month (Number of Kegs)                     5                           Anchor=2
+    ClickText                   Calculate
+    ClickText                   Save for Later
+    TypeText                    Profit Calculation Record Name                          Draft Beer profit calculation
+    ClickText                   Save                        partial_match=False
+    ClickText                   Draft Beer profit calculation
+    VerifyText                  Profit Calculation\Draft Beer profit calculation
+
+Packaged Beer Calculator
+    [Documentation]             This is to test Profit Calculator
+    [Arguments]
+    TypeText                    Competitor Beer Name        beer1
+    TypeText                    Case Cost (Price to Retailer)                           23
+    ClickText                    Case Size
+    Sleep                        3s                        
+    ClickText                   6 Unit Case
+    TypeText                    Price Charged Per Retail Package (Price to Consumer)                   25
+    ClickText                   Retail Package Size
+    ClickText                   6 Pack
+    TypeText                    Cases Sold per Month                     5
+    ClickText                   Add a Product to Compare
+    ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
+    TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
+    Sleep                       3s
+    ClickText                   Miller High Life 12 - 32oz Cans
+    TypeText                    Price Charged Per Retail Package (Price to Consumer)                   110                         Anchor=2
+    ClickText                   Retail Package Size                        Anchor=2
+    ClickText                   6 Pack                        Anchor=2
+    TypeText                    Cases Sold per Month                     5                           Anchor=2
+    ClickText                   Calculate
+    ClickText                   Save for Later
+    TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
+    ClickText                   Save                        partial_match=False
+    ClickText                   Packaged Beer profit calculation
+    VerifyText                  Profit Calculation\Packaged Beer profit calculation
