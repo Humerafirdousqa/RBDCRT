@@ -26,4 +26,4 @@ Packaged Beer Calculator
     ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
     ClickText          Profit Calculator
     ClickText          Packaged Beer Calculator
-    Packaged Beer Profit Calculator
+    Packaged Beer Calculator
