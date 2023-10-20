@@ -15,20 +15,8 @@ Create MerchCheckout with Breakage
     [Tags]                Merch Checkout
     Login
     Login As Merch        Ronald Starke
-    ClickText             Accounts
-    ClickElement          xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText             Merch Checkout              partial_match=False
-    UseModal              On
-    ClickText             Create/View Checkout
-    DropDown              *                           Yes
-    Select Future Date    0 days                      Checkout Date
-    TypeText              Store Contact Name          store contact name
-    ClickCheckbox         Breakage in Store           on
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=1
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=2
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=3
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=4
-    ClickText             Update/Close Checkout
+    Select the first Account
+    Create Merch Checkout with Breakage
 
 
 Create MerchCheckout without Breakage
@@ -36,15 +24,5 @@ Create MerchCheckout without Breakage
     [Tags]                Merch Checkout
     Login
     Login As Merch        Ronald Starke
-    ClickText             Accounts
-    ClickElement          xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText             Merch Checkout              partial_match=False
-    UseModal              On
-    ClickText             Create/View Checkout
-    DropDown              *                           Yes
-    Select Future Date    0 days                      Checkout Date
-    TypeText              Store Contact Name          store contact name
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=1
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=2
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=3
-    ClickText             Update/Close Checkout
+    Select the first Account
+    Create Merch Checkout without Breakage
