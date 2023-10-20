@@ -12,8 +12,7 @@ Draft Beer Calculator
     [Tags]             Profit Calculator
     Login
     Login As FSR       Charles Kirk
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
+    Select the first Account
     ClickText          Profit Calculator
     Draft Beer Calculator
 
@@ -22,8 +21,7 @@ Packaged Beer Calculator
     [Tags]             Profit Calculator
     Login
     Login As FSR       Charles Kirk
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
+    Select the first Account
     ClickText          Profit Calculator
     ClickText          Packaged Beer Calculator
     Packaged Beer Calculator
