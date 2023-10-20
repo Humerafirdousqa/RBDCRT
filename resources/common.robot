@@ -510,3 +510,9 @@ Packaged Beer Calculator
     ClickText                   Save                        partial_match=False
     ClickText                   Packaged Beer profit calculation
     VerifyText                  Profit Calculation\Packaged Beer profit calculation
+
+Select the first Account
+    [Documentation]    This to click first Account in the list View
+    [Arguments]
+    ClickText          Accounts
+    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
