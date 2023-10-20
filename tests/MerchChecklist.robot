@@ -15,8 +15,7 @@ Create MerchChecklist
     [Tags]             Merch Checklist
     Login
     Login As FSR       Charles Kirk
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
+    Select the first Account
     ClickText          Merch Checklist             partial_match=False
     UseModal           On
     ClickText          Create/Update Checklist
