@@ -524,7 +524,7 @@ Create Merch Checklist
     UseModal           On
     ClickText          Create/Update Checklist
     ClickText          Select a date for           anchor=*Checklist Date
-    Select Future Date          7 days             Checklist Date
+    Select Future Date          1 days             Checklist Date
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     TypeText           Store Contact Name       store contact name
     TypeText           General Comments         comments with long text ...
