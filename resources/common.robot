@@ -525,7 +525,7 @@ Create Merch Checklist
     ClickText          Create/Update Checklist
     ClickText          Select a date for           anchor=*Checklist Date
     Sleep              3s
-    Select Future Date          1 days             Checklist Date
+    Select Future Date          5 days             Checklist Date
     Sleep                       3s
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     TypeText           Store Contact Name       store contact name
