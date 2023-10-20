@@ -488,22 +488,22 @@ Packaged Beer Calculator
     [Arguments]
     TypeText                    Competitor Beer Name        beer1
     TypeText                    Case Cost (Price to Retailer)                           23
-    ClickText                    Case Size
-    Sleep                        3s                        
+    ClickText                   Case Size
+    Sleep                       3s
     ClickText                   6 Unit Case
-    TypeText                    Price Charged Per Retail Package (Price to Consumer)                   25
+    TypeText                    Price Charged Per Retail Package (Price to Consumer)    25
     ClickText                   Retail Package Size
     ClickText                   6 Pack
-    TypeText                    Cases Sold per Month                     5
+    TypeText                    Cases Sold per Month        5
     ClickText                   Add a Product to Compare
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
     ClickText                   Miller High Life 12 - 32oz Cans
-    TypeText                    Price Charged Per Retail Package (Price to Consumer)                   110                         Anchor=2
-    ClickText                   Retail Package Size                        Anchor=2
-    ClickText                   6 Pack                        Anchor=2
-    TypeText                    Cases Sold per Month                     5                           Anchor=2
+    TypeText                    Price Charged Per Retail Package (Price to Consumer)    110                         Anchor=2
+    ClickText                   Retail Package Size         Anchor=2
+    ClickText                   6 Pack                      Anchor=2
+    TypeText                    Cases Sold per Month        5                           Anchor=2
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
@@ -512,50 +512,64 @@ Packaged Beer Calculator
     VerifyText                  Profit Calculation\Packaged Beer profit calculation
 
 Select the first Account
-    [Documentation]    This to click first Account in the list View
+    [Documentation]             This to click first Account in the list View
     [Arguments]
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
+    ClickText                   Accounts
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
 
 Create Merch Checklist
-    [Documentation]    To create Merch Checklist
+    [Documentation]             To create Merch Checklist
     [Arguments]
-     ClickText          Merch Checklist             partial_match=False
-    UseModal           On
-    ClickText          Create/Update Checklist
-    #ClickText          Select a date for           anchor=*Checklist Date
-    #Sleep              3s
-    Select Future Date          5 days             Checklist Date
+    ClickText                   Merch Checklist             partial_match=False
+    UseModal                    On
+    ClickText                   Create/Update Checklist
+    #ClickText                  Select a date for           anchor=*Checklist Date
+    #Sleep                      3s
+    Select Future Date          5 days                      Checklist Date
     Sleep                       3s
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    TypeText           Store Contact Name       store contact name
-    TypeText           General Comments         comments with long text ...
-    ClickText          Create Merch Checklist
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickText          Create New Task
-    ClickText          Create/Update Task
-    TypeText           Subject                 task Subject
-    TypeText           Task Details                task details
-    DropDown           Location                    Front Endcap
-    ComboBox           Search Products...          2 Silos Citralicious Sixth Barrel
-    ClickText          Save Task
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    ClickText          Continue
-    ClickText          Done                        Anchor=2
-    UseModal           Off
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    TypeText                    Store Contact Name          store contact name
+    TypeText                    General Comments            comments with long text ...
+    ClickText                   Create Merch Checklist
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    ClickText                   Create New Task
+    ClickText                   Create/Update Task
+    TypeText                    Subject                     task Subject
+    TypeText                    Task Details                task details
+    DropDown                    Location                    Front Endcap
+    ComboBox                    Search Products...          2 Silos Citralicious Sixth Barrel
+    ClickText                   Save Task
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    ClickText                   Continue
+    ClickText                   Done                        Anchor=2
+    UseModal                    Off
 
 Create Merch Checkout with Breakage
-    [Documentation]
+    [Documentation]             To create a Merch Checkout with Breakage
     [Arguments]
-    ClickText             Merch Checkout              partial_match=False
-    UseModal              On
-    ClickText             Create/View Checkout
-    DropDown              *                           Yes
-    Select Future Date    0 days                      Checkout Date
-    TypeText              Store Contact Name          store contact name
-    ClickCheckbox         Breakage in Store           on
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=1
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=2
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=3
-    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=4
-    ClickText             Update/Close Checkout
+    ClickText                   Merch Checkout              partial_match=False
+    UseModal                    On
+    ClickText                   Create/View Checkout
+    DropDown                    *                           Yes
+    Select Future Date          0 days                      Checkout Date
+    TypeText                    Store Contact Name          store contact name
+    ClickCheckbox               Breakage in Store           on
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=1
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=2
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=3
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=4
+    ClickText                   Update/Close Checkout
+
+Create Merch Checkout without Breakage
+    [Documentation]             To create a Merch Checkout without Breakage
+    [Arguments]
+    ClickText                   Merch Checkout              partial_match=False
+    UseModal                    On
+    ClickText                   Create/View Checkout
+    DropDown                    *                           Yes
+    Select Future Date          0 days                      Checkout Date
+    TypeText                    Store Contact Name          store contact name
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=1
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=2
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=3
+    ClickText                   Update/Close Checkout
