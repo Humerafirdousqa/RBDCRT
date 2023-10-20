@@ -543,3 +543,19 @@ Create Merch Checklist
     ClickText          Continue
     ClickText          Done                        Anchor=2
     UseModal           Off
+
+Create Merch Checkout with Breakage
+    [Documentation]
+    [Arguments]
+    ClickText             Merch Checkout              partial_match=False
+    UseModal              On
+    ClickText             Create/View Checkout
+    DropDown              *                           Yes
+    Select Future Date    0 days                      Checkout Date
+    TypeText              Store Contact Name          store contact name
+    ClickCheckbox         Breakage in Store           on
+    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=1
+    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=2
+    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=3
+    UploadFile            Upload Files                /home/services/suite/MicrosoftTeams-image (56).png    Anchor=4
+    ClickText             Update/Close Checkout
