@@ -675,6 +675,7 @@ Create Order on a Case
     [Arguments]
     ClickText    Minimize
     ClickText    Show Navigation Menu
+    Sleep        3s
     ClickText    Cases
     ClickText    00092147
     ClickText    New Order
