@@ -523,8 +523,8 @@ Create Merch Checklist
      ClickText          Merch Checklist             partial_match=False
     UseModal           On
     ClickText          Create/Update Checklist
-    ClickText          Select a date for           anchor=*Checklist Date
-    Sleep              3s
+    #ClickText          Select a date for           anchor=*Checklist Date
+    #Sleep              3s
     Select Future Date          5 days             Checklist Date
     Sleep                       3s
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
