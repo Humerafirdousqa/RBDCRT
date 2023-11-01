@@ -33,7 +33,7 @@ Create Order
     #ClickCheckbox        xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
     #ClickElement          xpath\=//*[@class\='slds-checkbox_faux']
     #UseTable             Account Team
-    ClickText         Name                        on                          Anchor=Name
+    ClickItem         Name                          Anchor=Account Team
     DropDown              Priority                    High
     DropDown              Status                      Open
     ClickCheckbox         Photo Required              on
