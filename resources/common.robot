@@ -554,10 +554,10 @@ Create Merch Checkout with Breakage
     Select Future Date          0 days                      Checkout Date
     TypeText                    Store Contact Name          store contact name
     ClickCheckbox               Breakage in Store           on
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=1
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=2
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=3
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=4
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Back Room Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Cooler Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Non Alcoholic Shelf Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Display Photos (optional)
     ClickText                   Update/Close Checkout
 
 Create Merch Checkout without Breakage
@@ -677,7 +677,7 @@ Create Order on a Case
     ClickText    Show Navigation Menu
     Sleep        3s
     ClickText    Cases
-    ClickText    00092147
+    ClickText    00118464
     ClickText    New Order
     ClickText    Select a date for    anchor=Clear
     ClickText    13
