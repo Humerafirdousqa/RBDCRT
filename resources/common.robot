@@ -569,9 +569,9 @@ Create Merch Checkout without Breakage
     DropDown                    *                           Yes
     Select Future Date          0 days                      Checkout Date
     TypeText                    Store Contact Name          store contact name
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=1
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=2
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=3
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Back Room Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Cooler Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Non Alcoholic Shelf Photos (required)
     ClickText                   Update/Close Checkout
 
 Create Elite Survey
