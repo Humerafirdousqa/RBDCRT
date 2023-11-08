@@ -461,7 +461,7 @@ Verify Home page for Merch
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText                    Competitor Beer Name        beer1
+    TypeText                    Competitor Draft Name        beer1
     TypeText                    Price per Keg (Price to Retailer)                       23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     ClickText                   1/4 Barrel
@@ -472,7 +472,7 @@ Draft Beer Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
-    ClickText                   Miller Lite Half Barrel
+    ClickText                   Miller Lite Quarter Barrel Slim
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
     TypeText                    Serving Size in Ounces (Pour Size)                      5                           Anchor=2
     TypeText                    Velocity per Month (Number of Kegs)                     5                           Anchor=2
@@ -486,7 +486,8 @@ Draft Beer Calculator
 Packaged Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText                    Competitor Beer Name        beer1
+    ClickText                   Packaged Calculator
+    TypeText                    Competitor Packaged Name        beer1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickText                   Case Size
     Sleep                       3s
@@ -499,7 +500,7 @@ Packaged Beer Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
-    ClickText                   Miller High Life 12 - 32oz Cans
+    ClickText                   Miller High Life 12 - 32oz Bottles
     TypeText                    Price Charged Per Retail Package (Price to Consumer)    110                         Anchor=2
     ClickText                   Retail Package Size         Anchor=2
     ClickText                   6 Pack                      Anchor=2
@@ -648,7 +649,7 @@ Create a Menu Survey
     ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
     UseTable           Account Name
     ClickText          Take Survey                 Anchor=Menu Survey
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     ClickText          Yes
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     VerifyText         What are the cocktails? *
@@ -658,7 +659,7 @@ Create a Menu Survey
     Picklist           Liquor Brand                Barton
     UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     ClickText          Yes
     ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText          No                          anchor=Please select the Gin Well Liquor Brand:
