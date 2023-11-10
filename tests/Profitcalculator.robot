@@ -25,3 +25,12 @@ Packaged Beer Calculator
     ClickText          Profit Calculator
     ClickText          Packaged Beer Calculator
     Packaged Beer Calculator
+
+Spirit Calculator
+    [Documentation]    This is to test Spirit Calculator
+    [Tags]             Profit Calculator
+    Login
+    Login As FSR       Charles Kirk
+    Select the first Account
+    ClickText          Profit Calculator
+    Spirit Calculator
