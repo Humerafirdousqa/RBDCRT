@@ -461,7 +461,7 @@ Verify Home page for Merch
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
-    TypeText                    Competitor Draft Name        beer1
+    TypeText                    Competitor Draft Name       beer1
     TypeText                    Price per Keg (Price to Retailer)                       23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     ClickText                   1/4 Barrel
@@ -487,7 +487,7 @@ Packaged Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
     ClickText                   Packaged Calculator
-    TypeText                    Competitor Packaged Name        beer1
+    TypeText                    Competitor Packaged Name    beer1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickText                   Case Size
     Sleep                       3s
@@ -576,156 +576,157 @@ Create Merch Checkout without Breakage
     ClickText                   Update/Close Checkout
 
 Create Elite Survey
-    [Documentation]    Create Elite Survey
+    [Documentation]             Create Elite Survey
     [Arguments]
-    ClickText          New ELITE Survey
-    DropDown           *                           Large Format
-    ClickText          Next
-    DropDown           Survey Completed by         Manager Alone
-    DropDown           *Is the RBG Display Support of Feature consistent with local objectives?    Yes
-    TypeText           Question Comments           cccc                        anchor=Support of Feature Picture
-    ClickText          Upload Files                anchor=Support of Feature Picture
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    DropDown           *Is the overall display of cases on the sales floor at standard as defined by the business?                           No
-    TypeText           Question Comments      dddd                        anchor=Is the overall display of cases on the sales floor at standard as defined by the business?
-    ClickText          Upload Files                anchor=Display Cases Picture
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    DropDown           *Are planner items merchandised and executed?                           N/A
-    DropDown           *Are legal consumer offers equal to or greater than competition?                           Yes
-    DropDown           *Do displays have legal POS equal to greater than competition?                           No
-    DropDown           *Is the cooler set by schematic with correct pricing and packages?                           N/A
-    DropDown           *Is the RBG Product Quality Policy being followed?                           Yes
-    DropDown           *Is the back room clean and organized?                           No
-    DropDown           *Does RBG have any controllable Out of Stocks?                           N/A
-    DropDown           What steps of Consultant of Choice were followed?       Uncover Information
-    DropDown           *Were any existing sales tools used to secure features or distribution during sales?                           Yes
-    DropDown           Sales Tools                 Circana
-    ClickText          Next                        anchor=Previous
-    ClickText          Capture Signature
-    ClickText          Next
-    VerifyText         Score: 
-    ClickText          Finish
+    ClickText                   New ELITE Survey
+    DropDown                    *                           Large Format
+    ClickText                   Next
+    DropDown                    Survey Completed by         Manager Alone
+    DropDown                    *Is the RBG Display Support of Feature consistent with local objectives?            Yes
+    TypeText                    Question Comments           cccc                        anchor=Support of Feature Picture
+    ClickText                   Upload Files                anchor=Support of Feature Picture
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    DropDown                    *Is the overall display of cases on the sales floor at standard as defined by the business?                     No
+    TypeText                    Question Comments           dddd                        anchor=Is the overall display of cases on the sales floor at standard as defined by the business?
+    ClickText                   Upload Files                anchor=Display Cases Picture
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    DropDown                    *Are planner items merchandised and executed?           N/A
+    DropDown                    *Are legal consumer offers equal to or greater than competition?                    Yes
+    DropDown                    *Do displays have legal POS equal to greater than competition?                      No
+    DropDown                    *Is the cooler set by schematic with correct pricing and packages?                  N/A
+    DropDown                    *Is the RBG Product Quality Policy being followed?      Yes
+    DropDown                    *Is the back room clean and organized?                  No
+    DropDown                    *Does RBG have any controllable Out of Stocks?          N/A
+    DropDown                    What steps of Consultant of Choice were followed?       Uncover Information
+    DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
+    DropDown                    Sales Tools                 Circana
+    ClickText                   Next                        anchor=Previous
+    ClickText                   Capture Signature
+    ClickText                   Next
+    VerifyText                  Score:
+    ClickText                   Finish
 
 Create Failed Scan
-    [Documentation]    Create Failed Scan
+    [Documentation]             Create Failed Scan
     [Arguments]
-    ClickText          Products
-    ClickText          2 Silos Citralicious Sixth Barrel
-    ClickText          New Failed Scan
-    UseModal           On
-    ClickElement       xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
-    TypeText           Account                     39 Ocean Prime
-    ComboBox           Search Accounts...          \# 39 OCEAN PRIME ORLANDO
-    DropDown           *                           Vendor Information Incorrect or Pricing Issue
-    TypeText           *                           comments
-    ClickText          Next
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    ClickText          Next
-    ClickText          Finish
-    UseModal           Off
-    ClickText          New Failed Scan
-    UseModal           On
-    ClickElement       xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
-    TypeText           Account                     39 Ocean Prime
-    ComboBox           Search Accounts...          \# 39 OCEAN PRIME ORLANDO
-    ClickElement       xpath\=//*[@class\='slds-select']
-    #PickList          Failed Scan Reason          Item Not Scanning / Not Found / Not on File
-    DropDown           *                           Item Not Scanning / Not Found / Not on File
-    ClickText          Next
-    DropDown           Is this item in the schematic?                          YES
-    ClickText          Next
-    #UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    #ClickText          Next
-    ClickText          Finish
-    UseModal           Off
+    ClickText                   Products
+    ClickText                   2 Silos Citralicious Sixth Barrel
+    ClickText                   New Failed Scan
+    UseModal                    On
+    ClickElement                xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
+    TypeText                    Account                     39 Ocean Prime
+    ComboBox                    Search Accounts...          \# 39 OCEAN PRIME ORLANDO
+    DropDown                    *                           Vendor Information Incorrect or Pricing Issue
+    TypeText                    *                           comments
+    ClickText                   Next
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    ClickText                   Next
+    ClickText                   Finish
+    UseModal                    Off
+    ClickText                   New Failed Scan
+    UseModal                    On
+    ClickElement                xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
+    TypeText                    Account                     39 Ocean Prime
+    ComboBox                    Search Accounts...          \# 39 OCEAN PRIME ORLANDO
+    ClickElement                xpath\=//*[@class\='slds-select']
+    #PickList                   Failed Scan Reason          Item Not Scanning / Not Found / Not on File
+    DropDown                    *                           Item Not Scanning / Not Found / Not on File
+    ClickText                   Next
+    DropDown                    Is this item in the schematic?                          YES
+    ClickText                   Next
+    #UploadFile                 Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    #ClickText                  Next
+    ClickText                   Finish
+    UseModal                    Off
 
 Create a Menu Survey
-    [Documentation]    Create a Menu Survey
+    [Documentation]             Create a Menu Survey
     [Arguments]
-    ClickText          Accounts
-    ClickText          Select a List View: Accounts
-    ClickText          menu survey
-    sleep              3s
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
-    UseTable           Account Name
-    ClickText          Take Survey                 Anchor=Menu Survey
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux']
-    ClickText          Yes
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    VerifyText         What are the cocktails? *
-    TypeText           *Cocktail Item Name         cocktail 1
-    ClickText          No
-    PickList           Liquor Type                 Gin
-    Picklist           Liquor Brand                Barton
-    UploadFile         Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux']
-    ClickText          Yes
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickText          No                          anchor=Please select the Gin Well Liquor Brand:
-    PickList           Well Brand            Barton
-    ClickText          No                          anchor=Please select the Rum Well Liquor Brand:
-    PickList           Well Brand            Concierge
-    #ClickElement       xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
-    #ClickText          Concierge
-    ClickElement       xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickText          Finish                      2
+    ClickText                   Accounts
+    ClickText                   Select a List View: Accounts
+    ClickText                   menu survey
+    sleep                       3s
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    UseTable                    Account Name
+    ClickText                   Take Survey                 Anchor=Menu Survey
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickText                   Yes
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    VerifyText                  What are the cocktails? *
+    TypeText                    *Cocktail Item Name         cocktail 1
+    ClickText                   No
+    PickList                    Liquor Type                 Gin
+    Picklist                    Liquor Brand                Barton
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickText                   Yes
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    ClickText                   No                          anchor=Please select the Gin Well Liquor Brand:
+    PickList                    Well Brand                  Barton
+    ClickText                   No                          anchor=Please select the Rum Well Liquor Brand:
+    PickList                    Well Brand                  Concierge
+    #ClickElement               xpath\=//*[@class\='slds-combobox__input slds-input_faux slds-combobox__input-value']
+    #ClickText                  Concierge
+    ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
+    ClickText                   Finish                      2
 
 Create Order on a Case
-    [Documentation]    Create Order on a Case
+    [Documentation]             Create Order on a Case
     [Arguments]
-    ClickText    Minimize
-    ClickText    Show Navigation Menu
-    Sleep        3s
-    ClickText    Cases
-    ClickText    00118464
-    ClickText    New Order
-    ClickText    Select a date for    anchor=Clear
-    ClickText    13
-    ClickText    Select Origin    anchor=*
-    ClickText    Email To Order    anchor=Clear
-    ClickText    Order Products
-    UseTable    SortProduct Nameicon
-    #ClickCell    r1c8
-    #TypeText    01t6g000003eRXaAAM    22
-    #TypeText    01t6g000003eQdLAAU    3
-    ClickElement       xpath\=//*[@class\='slds-input qtyInput']
-    TypeText           xpath\=//*[@class\='slds-input qtyInput']               2
-    ClickText    Apply Changes
-    #ClickText    Account Details
-    #ClickText    Tasks
-    #ClickText    Notes    anchor=Tasks
-    #ClickText    New    anchor=(12)
-    #TypeText    *Title    test notes
-    #TypeText    //*[@id\='modal-content-id-10-1403']/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]/div[1]    testing
-    #ClickText    Save
-    #ClickText    Cases    anchor=Tasks
-    #ClickText    Order Products
-    ClickText    Submit Order
-    ClickText    Select an Option    anchor=Off Day/Off Frequency Reason
-    ClickText    RBD Out of Stock    anchor=close
-    ClickText    Yes
-    #ClickText    Cigar City Jai Alai 24 - 12oz Cans, 6 Pack 24 - 12oz Cans, 6 Pack
-    ClickText    Order Summary
+    ClickText                   Minimize
+    ClickText                   Show Navigation Menu
+    Sleep                       3s
+    ClickText                   Cases
+    ClickText                   00118464
+    ClickText                   New Order
+    ClickText                   Select a date for           anchor=Clear
+    ClickText                   13
+    ClickText                   Select Origin               anchor=*
+    ClickText                   Email To Order              anchor=Clear
+    ClickText                   Order Products
+    UseTable                    SortProduct Nameicon
+    #ClickCell                  r1c8
+    #TypeText                   01t6g000003eRXaAAM          22
+    #TypeText                   01t6g000003eQdLAAU          3
+    ClickElement                xpath\=//*[@class\='slds-input qtyInput']
+    TypeText                    xpath\=//*[@class\='slds-input qtyInput']               2
+    ClickText                   Apply Changes
+    #ClickText                  Account Details
+    #ClickText                  Tasks
+    #ClickText                  Notes                       anchor=Tasks
+    #ClickText                  New                         anchor=(12)
+    #TypeText                   *Title                      test notes
+    #TypeText                   //*[@id\='modal-content-id-10-1403']/lightning-input-rich-text[1]/div[1]/div[1]/div[1]/div[2]/div[1]            testing
+    #ClickText                  Save
+    #ClickText                  Cases                       anchor=Tasks
+    #ClickText                  Order Products
+    ClickText                   Submit Order
+    ClickText                   Select an Option            anchor=Off Day/Off Frequency Reason
+    ClickText                   RBD Out of Stock            anchor=close
+    ClickText                   Yes
+    #ClickText                  Cigar City Jai Alai 24 - 12oz Cans, 6 Pack 24 - 12oz Cans, 6 Pack
+    ClickText                   Order Summary
 
 Create Task
-    [Documentation]    This is to create Task
+    [Documentation]             This is to create Task
     [Arguments]
-    ClickText             Accounts                    Anchor=Home
-    ClickElement          xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText             More                        Anchor=Account Scorecard
-    ClickText             Critical Minute
-    ClickText             New Task
-    DropDown              None                        Call
-    ClickText             Next                        anchor=Select a Record Type
-    UseModal              on
-    TypeText              *Subject                    My Task
-    Select Future Date    10 days                     Due Date
-    TypeText              *Comments                   comments
-    UseTable              Choose a RowSelect All
-    Click Element         xpath=//div[@class="slds-modal__container"]//span[@class="slds-checkbox" and ./input[@class="datatable-select-all"]]
-    DropDown              Priority                    High
-    DropDown              Status                      Open
-    ClickCheckbox         Photo Required              on
-    ClickCheckbox         Photo Required              off
-    ClickText             Save
+    Clicktext                   Minimize
+    ClickText                   Accounts                    Anchor=Home
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickText                   More                        Anchor=Account Scorecard
+    ClickText                   Critical Minute
+    ClickText                   New Task
+    DropDown                    None                        Call
+    ClickText                   Next                        anchor=Select a Record Type
+    UseModal                    on
+    TypeText                    *Subject                    My Task
+    Select Future Date          10 days                     Due Date
+    TypeText                    *Comments                   comments
+    UseTable                    Choose a RowSelect All
+    Click Element               xpath=//div[@class="slds-modal__container"]//span[@class="slds-checkbox" and ./input[@class="datatable-select-all"]]
+    DropDown                    Priority                    High
+    DropDown                    Status                      Open
+    ClickCheckbox               Photo Required              on
+    ClickCheckbox               Photo Required              off
+    ClickText                   Save
