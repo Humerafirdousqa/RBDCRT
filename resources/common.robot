@@ -512,6 +512,34 @@ Packaged Beer Calculator
     ClickText                   Packaged Beer profit calculation
     VerifyText                  Profit Calculation\Packaged Beer profit calculation
 
+
+Spirit Calculator
+    [Documentation]             This is to test Profit Calculator
+    [Arguments]
+    ClickText                   Spirit Calculator
+    TypeText                    Competitor Spirit Name    Spirit1
+    TypeText                    Case Cost (Price to Retailer)                           23
+    ClickText                   Bottle Size (ml)
+    Sleep                       3s
+    ClickText                   6 Pack
+    TypeText                    Price per Serving (Price to Consumer)    25
+    TypeText                    Pour Size (Serving Size in Ounces)        3.5
+    TypeText                    Cases Sold per Month                      3
+    ClickText                   Add a Product to Compare
+    ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
+    TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
+    Sleep                       3s
+    ClickText                   45 NEW RCH RYE B6/750ML 6/750ML
+    TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
+    TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
+    TypeText                    Cases Sold per Month                      5
+    ClickText                   Calculate
+    ClickText                   Save for Later
+    TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
+    ClickText                   Save                        partial_match=False
+    ClickText                   Packaged Beer profit calculation
+    VerifyText                  Profit Calculation\Packaged Beer profit calculation
+
 Select the first Account
     [Documentation]             This to click first Account in the list View
     [Arguments]
