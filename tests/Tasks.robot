@@ -12,12 +12,9 @@ Create Order
     Login
     Home
     Login As ISR          Regina Peters
-    Home
-    ClickText             Minimize
-    ClickText             Show Navigation Menu
     ClickText             Accounts                    Anchor=Home
     ClickElement          xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText             More                        index=2                     anchor=2
+    ClickText             More                        Anchor=Account Scorecard
     ClickText             Critical Minute
     ClickText             New Task
     DropDown              None                        Call
@@ -25,15 +22,9 @@ Create Order
     UseModal              on
     TypeText              *Subject                    My Task
     Select Future Date    10 days                     Due Date
-    UseTable              Choose a RowSelect All
     TypeText              *Comments                   comments
-    #ClickCheckbox        Name                        on                          Anchor=1
-    #ClickCheckbox        Select All                  on                          Anchor=1       Index=Name
-    #ClickCheckbox        Name                        on                          1              Account Team
-    #ClickCheckbox        xpath\=//label[@for\='lgt-dt-header-factory-id-937']//span[@class\='slds-checkbox_faux']    on
-    #ClickElement          xpath\=//*[@class\='slds-checkbox_faux']
-    #UseTable             Account Team
-    ClickItem         Name                          Anchor=Account Team
+    UseTable              Choose a RowSelect All
+    Click Element         xpath=//div[@class="slds-modal__container"]//span[@class="slds-checkbox" and ./input[@class="datatable-select-all"]]
     DropDown              Priority                    High
     DropDown              Status                      Open
     ClickCheckbox         Photo Required              on
