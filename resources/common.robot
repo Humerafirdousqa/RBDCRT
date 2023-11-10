@@ -519,7 +519,7 @@ Spirit Calculator
     ClickText                   Spirit Calculator
     TypeText                    Competitor Spirit Name    Spirit1
     TypeText                    Case Cost (Price to Retailer)                           23
-    ClickText                   Bottle Size (ml)
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     Sleep                       3s
     ClickText                   6 Pack
     TypeText                    Price per Serving (Price to Consumer)    25
