@@ -711,7 +711,6 @@ Create Order on a Case
 Create Task
     [Documentation]             This is to create Task
     [Arguments]
-    Clicktext                   Minimize
     ClickText                   Accounts                    Anchor=Home
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     ClickText                   More                        Anchor=Account Scorecard
