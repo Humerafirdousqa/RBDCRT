@@ -521,7 +521,9 @@ Spirit Calculator
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
     Sleep                       3s
-    ClickText                   6 Pack
+    ClickText                   1000ML 
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickText                   12 Pack
     TypeText                    Price per Serving (Price to Consumer)    25
     TypeText                    Pour Size (Serving Size in Ounces)        3.5
     TypeText                    Cases Sold per Month                      3
