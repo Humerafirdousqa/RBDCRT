@@ -23,7 +23,7 @@ Packaged Beer Calculator
     Login As FSR       Charles Kirk
     Select the first Account
     ClickText          Profit Calculator
-    ClickText          Packaged Beer Calculator
+    ClickText          Packaged Calculator
     Packaged Beer Calculator
 
 Spirit Calculator
