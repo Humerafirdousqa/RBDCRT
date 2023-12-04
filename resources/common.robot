@@ -534,7 +534,7 @@ Spirit Calculator
     ClickText                   45 NEW RCH RYE B6/750ML 6/750ML
     TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
-    TypeText                    Cases Sold per Month                      5
+    TypeText                    Cases Sold per Month                      6
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
