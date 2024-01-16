@@ -190,20 +190,20 @@ Create NCR as ISR
     PickList                    Patron Age Code             General Pop
     PickList                    Residence                   Local
     ComboBox                    Search People...            Charles Kirk
-    ComboBox                    Search People...            Charles Kirk                index=2
-    ComboBox                    Search People...            Charles Kirk                index=3
-    ComboBox                    Search People...            Charles Kirk                index=4
-    ComboBox                    Search People...            Charles Kirk                index=5
-    ComboBox                    Search People...            Charles Kirk                index=6
+    #ComboBox                    Search People...            Charles Kirk                index=2
+    #ComboBox                    Search People...            Charles Kirk                index=3
+    #ComboBox                    Search People...            Charles Kirk                index=4
+    #ComboBox                    Search People...            Charles Kirk                index=5
+    #ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen
     MultiPickList               Requested Delivery Days     Thursday
     ClickText                   Move selection to Chosen
-    PickList                    Visit Frequency             Twice Per Week
-    MultiPickList               Visit Day(s)                Monday
-    ClickText                   Move selection to Chosen    anchor=Available
-    MultiPickList               Visit Day(s)                Thursday
-    ClickText                   Move selection to Chosen    anchor=Available
+    #PickList                    Visit Frequency             Twice Per Week
+    #MultiPickList               Visit Day(s)                Monday
+    #ClickText                   Move selection to Chosen    anchor=Available
+    #MultiPickList               Visit Day(s)                Thursday
+    #ClickText                   Move selection to Chosen    anchor=Available
     PickList                    Delivery Open Time #1       6:00
     PickList                    Delivery Close Time #1      9:00
     PickList                    Package Type                Draft & Pkg
