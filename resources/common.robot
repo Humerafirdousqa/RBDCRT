@@ -591,6 +591,7 @@ Create Merch Checkout with Breakage
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Back Room Photos (required)
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Cooler Photos (required)
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Non Alcoholic Shelf Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=RTD Photos (required)
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Display Photos (optional)
     ClickText                   Update/Close Checkout
 
@@ -606,6 +607,7 @@ Create Merch Checkout without Breakage
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Back Room Photos (required)
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Cooler Photos (required)
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Non Alcoholic Shelf Photos (required)
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=RTD Photos (required)
     ClickText                   Update/Close Checkout
 
 Create Elite Survey
