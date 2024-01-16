@@ -442,6 +442,7 @@ Verify Home page for ISR
     VerifyText                  Sharepoint
     VerifyText                  Employee Center
     VerifyText                  Circana Portal
+    VerifyText                  Fintech Evite
     VerifyText                  Training Docs
     ClickText                   Training Docs
     SwitchWindow                NEW
