@@ -395,6 +395,8 @@ Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
     VerifyText                  Home
+    VerifyText                  Spirits Business Objective
+    VerifyText                  ELITE Dashboard
     VerifyText                  DSOF
     VerifyText                  Cases
     VerifyText                  My Open Pinned Products
@@ -402,7 +404,7 @@ Verify Home page for FSR
     VerifyText                  New Customer Requests
     VerifyText                  Newsletter
     VerifyText                  Dashboard                   Anchor=3
-    VerifyText                  ELITE Dashboard
+    VerifyText                  Task Reporting
     ClickText                   Show menu
     VerifyText                  VIP Begin Day
     VerifyText                  Live Order
