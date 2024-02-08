@@ -16,11 +16,6 @@ Command Center for FSR
     Login
     Login As FSR       Charles Kirk
     Verify Home page for FSR
-    ${DBARand}=           Generate Random String      6                         [LOWER]
-    ${FirstRand}=         Generate Random String      6                         [LOWER]
-    ${LastRand}=          Generate Random String      6                         [LOWER]
-    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI    selltype=House Account
-    VerifyText            Awaiting Manager Approval
     Create Elite Survey
     Create Merch Checklist
     ClickText                   More                        Anchor=2
