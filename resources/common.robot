@@ -447,7 +447,7 @@ Verify Home page for ISR
     ClickText                   Training Docs
     SwitchWindow                NEW
     SwitchWindow                3
-    VerifyText                  Training Documents
+    VerifyText                  Training Files
 
 Verify Home page for Merch
     [Documentation]             This is to verify command center for Merch
