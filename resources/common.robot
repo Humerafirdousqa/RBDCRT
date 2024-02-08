@@ -709,7 +709,7 @@ Create a Menu Survey
 Create Order on a Case
     [Documentation]             Create Order on a Case
     [Arguments]
-    ClickText                   Minimize
+    #ClickText                   Minimize
     ClickText                   Show Navigation Menu
     Sleep                       3s
     ClickText                   Cases
