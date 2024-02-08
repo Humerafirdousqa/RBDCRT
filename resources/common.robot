@@ -460,7 +460,7 @@ Verify Home page for Merch
     ClickText                   Training Docs
     SwitchWindow                NEW
     SwitchWindow                3
-    VerifyText                  Training Documents
+    VerifyText                  Training Files
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
