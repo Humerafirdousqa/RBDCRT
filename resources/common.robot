@@ -466,7 +466,7 @@ Draft Beer Calculator
     [Arguments]
     TypeText                    Competitor Draft Name       beer1
     TypeText                    Price per Keg (Price to Retailer)                       23
-    ClickElement                xpath\=//*[@class\='slds-truncate']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
     ClickText                   1/4 Barrel
     TypeText                    Price per Serving (Price to Consumer)                   25
     TypeText                    Serving Size in Ounces (Pour Size)                      5
