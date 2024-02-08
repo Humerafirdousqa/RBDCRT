@@ -401,7 +401,7 @@ Verify Home page for FSR
     VerifyText                  Cases
     VerifyText                  My Open Pinned Products
     VerifyText                  Tasks                       Anchor=2
-    VerifyText                  New Customer Requests
+    VerifyText                  New Customer Requests       Anchor=2
     VerifyText                  Newsletter
     VerifyText                  Dashboard                   Anchor=3
     VerifyText                  Task Reporting
