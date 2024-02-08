@@ -645,7 +645,7 @@ Create Failed Scan
     [Documentation]             Create Failed Scan
     [Arguments]
     ClickText                   Products
-    ClickText                   2 Silos Citralicious Sixth Barrel
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     ClickText                   New Failed Scan
     UseModal                    On
     ClickElement                xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
