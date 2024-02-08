@@ -503,7 +503,7 @@ Packaged Beer Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
     Sleep                       3s
-    ClickText                   Miller High Life 12 - 32oz Bottles
+    ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price Charged Per Retail Package (Price to Consumer)    110                         Anchor=2
     ClickText                   Retail Package Size         Anchor=2
     ClickText                   6 Pack                      Anchor=2
@@ -534,7 +534,7 @@ Spirit Calculator
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
     TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
     Sleep                       3s
-    ClickText                   45 NEW RCH RYE B6/750ML 6/750ML
+    ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
     TypeText                    Cases Sold per Month                      6
