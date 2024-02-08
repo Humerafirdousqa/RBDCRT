@@ -15,7 +15,5 @@ Create Elite Survey
     [Tags]             Elite Survey
     Login
     Login As FSR       Charles Kirk
-    Select the first Account
-    ClickText          Surveys
     Create Elite Survey
 
