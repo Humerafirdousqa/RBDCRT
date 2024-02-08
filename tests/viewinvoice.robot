@@ -15,15 +15,5 @@ View Invoice
     [Tags]             Merch Checklist
     Login
     Login As FSR       Charles Kirk
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText    More    Anchor=2
-    ClickText    Orders and Invoices
-    ClickText    View Invoice
-    UseTable    Invoice #
-    ClickCell    r1c3
-    ClickCell    r5c3
-    ClickText    Adobe PDF
-    ClickText    Download
-    CloseWindow
-    SwitchWindow    NEW
+    View and Download Invoice
+    
