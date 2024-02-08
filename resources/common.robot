@@ -713,7 +713,9 @@ Create Order on a Case
     ClickText                   Show Navigation Menu
     Sleep                       3s
     ClickText                   Cases
-    ClickText                   00118464
+    ClickText                   Select a List View: Cases
+    ClickText                   General ISR Case Queue
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     ClickText                   New Order
     ClickText                   Select a date for           anchor=Clear
     ClickText                   13
