@@ -684,7 +684,7 @@ Create a Menu Survey
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     UseTable                    Account Name
     ClickText                   Take Survey                 Anchor=Menu Survey
-    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value']
     ClickText                   Yes
     ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     VerifyText                  What are the cocktails? *
@@ -694,7 +694,7 @@ Create a Menu Survey
     Picklist                    Liquor Brand                Barton
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
     ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
-    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux slds-combobox__input-value']
     ClickText                   Yes
     ClickElement                xpath\=//button[@class\='slds-button slds-button_brand'][normalize-space()\='Next']
     ClickText                   No                          anchor=Please select the Gin Well Liquor Brand:
