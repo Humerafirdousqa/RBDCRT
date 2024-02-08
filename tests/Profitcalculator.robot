@@ -26,7 +26,6 @@ Packaged Beer Calculator
     Select the first Account
     ClickText                   More                        Anchor=2
     ClickText                   Profit Calculator
-    ClickText                   Packaged Calculator
     Packaged Beer Calculator
 
 Spirit Calculator
