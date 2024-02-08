@@ -231,6 +231,13 @@ Create NCR as ISR
 Create NCR as FSR
     [Documentation]
     [Arguments]                 ${DBAName}                  ${firstName}                ${lastName}                 ${BU}                       ${selltype}
+    ClickText             Show menu
+    ClickText             New Customer Request    Anchor=2        anchor=Live Order
+    ${DBARand}=           Generate Random String      6                         [LOWER]
+    ${FirstRand}=         Generate Random String      6                         [LOWER]
+    ${LastRand}=          Generate Random String      6                         [LOWER]
+    ClickText             New Customer Request
+    SwitchWindow          NEW
     UseModal                    On
     TypeText                    D.B.A. Name                ${DBAName}                  timeout=5s                  partial_match=False
     TypeText                    First Name                  ${firstName}
