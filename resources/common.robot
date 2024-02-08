@@ -190,20 +190,20 @@ Create NCR as ISR
     PickList                    Patron Age Code             General Pop
     PickList                    Residence                   Local
     ComboBox                    Search People...            Charles Kirk
-    #ComboBox                    Search People...            Charles Kirk                index=2
-    #ComboBox                    Search People...            Charles Kirk                index=3
-    #ComboBox                    Search People...            Charles Kirk                index=4
-    #ComboBox                    Search People...            Charles Kirk                index=5
-    #ComboBox                    Search People...            Charles Kirk                index=6
+    #ComboBox                   Search People...            Charles Kirk                index=2
+    #ComboBox                   Search People...            Charles Kirk                index=3
+    #ComboBox                   Search People...            Charles Kirk                index=4
+    #ComboBox                   Search People...            Charles Kirk                index=5
+    #ComboBox                   Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen
     MultiPickList               Requested Delivery Days     Thursday
     ClickText                   Move selection to Chosen
-    #PickList                    Visit Frequency             Twice Per Week
-    #MultiPickList               Visit Day(s)                Monday
-    #ClickText                   Move selection to Chosen    anchor=Available
-    #MultiPickList               Visit Day(s)                Thursday
-    #ClickText                   Move selection to Chosen    anchor=Available
+    #PickList                   Visit Frequency             Twice Per Week
+    #MultiPickList              Visit Day(s)                Monday
+    #ClickText                  Move selection to Chosen    anchor=Available
+    #MultiPickList              Visit Day(s)                Thursday
+    #ClickText                  Move selection to Chosen    anchor=Available
     PickList                    Delivery Open Time #1       6:00
     PickList                    Delivery Close Time #1      9:00
     PickList                    Package Type                Draft & Pkg
@@ -232,7 +232,7 @@ Create NCR as FSR
     [Documentation]
     [Arguments]                 ${DBAName}                  ${firstName}                ${lastName}                 ${BU}                       ${selltype}
     UseModal                    On
-    TypeText                    D.B.A. Name                ${DBAName}                  timeout=5s                  partial_match=False
+    TypeText                    D.B.A. Name                 ${DBAName}                  timeout=5s                  partial_match=False
     TypeText                    First Name                  ${firstName}
     TypeText                    Last Name                   ${lastName}
     DropDown                    *                           ${BU}
@@ -279,11 +279,11 @@ Create NCR as FSR
     ClickText                   Move selection to Chosen
     MultiPickList               Requested Delivery Days     Thursday
     ClickText                   Move selection to Chosen
-    #PickList                    Visit Frequency             Twice Per Week
-    #MultiPickList               Visit Day(s)                Monday
-    #ClickText                   Move selection to Chosen    anchor=Available
-    #MultiPickList               Visit Day(s)                Thursday
-    #ClickText                   Move selection to Chosen    anchor=Available
+    #PickList                   Visit Frequency             Twice Per Week
+    #MultiPickList              Visit Day(s)                Monday
+    #ClickText                  Move selection to Chosen    anchor=Available
+    #MultiPickList              Visit Day(s)                Thursday
+    #ClickText                  Move selection to Chosen    anchor=Available
     PickList                    Delivery Open Time #1       6:00
     PickList                    Delivery Close Time #1      9:00
     PickList                    Package Type                Draft & Pkg
@@ -395,7 +395,7 @@ Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
     Sleep                       5s
-    ClickText                   More    Anchor=2
+    ClickText                   More                        Anchor=2
     VerifyText                  Home
     VerifyText                  Spirits Business Objective
     VerifyText                  ELITE Dashboard
@@ -480,7 +480,7 @@ Draft Beer Calculator
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
     TypeText                    Serving Size in Ounces (Pour Size)                      5                           Anchor=2
-    TypeText                    Velocity per Month (Number of Kegs)                     5.3                           Anchor=2
+    TypeText                    Velocity per Month (Number of Kegs)                     5.3                         Anchor=2
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Draft Beer profit calculation
@@ -522,24 +522,24 @@ Spirit Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
     ClickText                   Spirit Calculator
-    TypeText                    Competitor Spirit Name    Spirit1
+    TypeText                    Competitor Spirit Name      Spirit1
     TypeText                    Case Cost (Price to Retailer)                           23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
     Sleep                       3s
-    ClickText                   1000ML 
+    ClickText                   1000ML
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
     ClickText                   12 Pack
-    TypeText                    Price per Serving (Price to Consumer)    25
-    TypeText                    Pour Size (Serving Size in Ounces)        3.5
-    TypeText                    Cases Sold per Month                      3
+    TypeText                    Price per Serving (Price to Consumer)                   25
+    TypeText                    Pour Size (Serving Size in Ounces)                      3.5
+    TypeText                    Cases Sold per Month        3
     ClickText                   Add a Product to Compare
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
-    TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
+    TypeText                    Search by product name, item number, pkg type           New                         Anchor=2
     Sleep                       3s
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
-    TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
-    TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
-    TypeText                    Cases Sold per Month                      6                      Anchor=2
+    TypeText                    Price per Serving (Price to Consumer)                   50                          Anchor=2
+    TypeText                    Pour Size (Serving Size in Ounces)                      1.5                         Anchor=2
+    TypeText                    Cases Sold per Month        6                           Anchor=2
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
@@ -573,7 +573,7 @@ Create Merch Checklist
     TypeText                    Subject                     task Subject
     TypeText                    Task Details                task details
     DropDown                    Location                    Front Endcap
-    ComboBox                    Search Products...          2 Silos Citralicious Sixth Barrel
+    ComboBox                    Search Products...          2 SILOS CITRALICIOUS K 1/6BBL
     ClickText                   Save Task
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
     ClickText                   Continue
@@ -616,7 +616,7 @@ Create Elite Survey
     [Documentation]             Create Elite Survey
     [Arguments]
     Select the first Account
-    ClickText          Surveys
+    ClickText                   Surveys
     ClickText                   New ELITE Survey
     DropDown                    *                           Large Format
     ClickText                   Next
@@ -713,7 +713,7 @@ Create a Menu Survey
 Create Order on a Case
     [Documentation]             Create Order on a Case
     [Arguments]
-    #ClickText                   Minimize
+    #ClickText                  Minimize
     ClickText                   Show Navigation Menu
     Sleep                       3s
     ClickText                   Cases
@@ -772,17 +772,17 @@ Create Task
     ClickText                   Save
 
 View and Download Invoice
-    [Documentation]    This is view and Download Invoice
+    [Documentation]             This is view and Download Invoice
     [Arguments]
-    ClickText          Accounts
-    ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText    More    Anchor=2
-    ClickText    Orders and Invoices
-    ClickText    View Invoice
-    UseTable    Invoice #
-    ClickCell    r1c3
-    ClickCell    r5c3
-    ClickText    Adobe PDF
-    ClickText    Download
+    ClickText                   Accounts
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickText                   More                        Anchor=2
+    ClickText                   Orders and Invoices
+    ClickText                   View Invoice
+    UseTable                    Invoice #
+    ClickCell                   r1c3
+    ClickCell                   r5c3
+    ClickText                   Adobe PDF
+    ClickText                   Download
     CloseWindow
-    SwitchWindow    NEW
+    SwitchWindow                NEW
