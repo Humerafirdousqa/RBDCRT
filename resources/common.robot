@@ -398,6 +398,7 @@ Create Future Order
 Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
+    ClickText                   More    Anchor=2
     VerifyText                  Home
     VerifyText                  Spirits Business Objective
     VerifyText                  ELITE Dashboard
