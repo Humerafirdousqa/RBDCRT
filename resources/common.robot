@@ -613,6 +613,8 @@ Create Merch Checkout without Breakage
 Create Elite Survey
     [Documentation]             Create Elite Survey
     [Arguments]
+    Select the first Account
+    ClickText          Surveys
     ClickText                   New ELITE Survey
     DropDown                    *                           Large Format
     ClickText                   Next
