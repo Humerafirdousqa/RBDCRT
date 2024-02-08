@@ -30,7 +30,8 @@ Create NCR as an FSR
     [Tags]                NCR
     Login
     Login As FSR          Charles Kirk
-    ClickText             New Customer Request        anchor=Live Order
+    ClickText             Show menu
+    ClickText             New Customer Request    Anchor=2        anchor=Live Order
     ${DBARand}=           Generate Random String      6                         [LOWER]
     ${FirstRand}=         Generate Random String      6                         [LOWER]
     ${LastRand}=          Generate Random String      6                         [LOWER]
