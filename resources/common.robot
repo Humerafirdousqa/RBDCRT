@@ -231,12 +231,8 @@ Create NCR as ISR
 Create NCR as FSR
     [Documentation]
     [Arguments]                 ${DBAName}                  ${firstName}                ${lastName}                 ${BU}                       ${selltype}
-    ClickText             Show menu
-    ClickText             New Customer Request    Anchor=2
-    #ClickText             New Customer Request
-    SwitchWindow          NEW
     UseModal                    On
-    TypeText                    *D.B.A. Name                ${DBAName}                  timeout=5s                  partial_match=False
+    TypeText                    D.B.A. Name                ${DBAName}                  timeout=5s                  partial_match=False
     TypeText                    First Name                  ${firstName}
     TypeText                    Last Name                   ${lastName}
     DropDown                    *                           ${BU}
