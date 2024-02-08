@@ -17,7 +17,7 @@ View Invoice
     Login As FSR       Charles Kirk
     ClickText          Accounts
     ClickElement       xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText    More
+    ClickText    More    Anchor=2
     ClickText    Orders and Invoices
     ClickText    View Invoice
     UseTable    Invoice #
