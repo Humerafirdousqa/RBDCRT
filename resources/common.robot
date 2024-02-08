@@ -233,9 +233,6 @@ Create NCR as FSR
     [Arguments]                 ${DBAName}                  ${firstName}                ${lastName}                 ${BU}                       ${selltype}
     ClickText             Show menu
     ClickText             New Customer Request    Anchor=2        anchor=Live Order
-    ${DBARand}=           Generate Random String      6                         [LOWER]
-    ${FirstRand}=         Generate Random String      6                         [LOWER]
-    ${LastRand}=          Generate Random String      6                         [LOWER]
     ClickText             New Customer Request
     SwitchWindow          NEW
     UseModal                    On
