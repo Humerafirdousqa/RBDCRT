@@ -522,10 +522,10 @@ Spirit Calculator
     ClickText                   Spirit Calculator
     TypeText                    Competitor Spirit Name    Spirit1
     TypeText                    Case Cost (Price to Retailer)                           23
-    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
     Sleep                       3s
     ClickText                   1000ML 
-    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux']
+    ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
     ClickText                   12 Pack
     TypeText                    Price per Serving (Price to Consumer)    25
     TypeText                    Pour Size (Serving Size in Ounces)        3.5
@@ -537,7 +537,7 @@ Spirit Calculator
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price per Serving (Price to Consumer)    50                         Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)        1.5                           Anchor=2
-    TypeText                    Cases Sold per Month                      6
+    TypeText                    Cases Sold per Month                      6                      Anchor=2
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
