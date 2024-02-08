@@ -748,7 +748,7 @@ Create Task
     [Arguments]
     ClickText                   Accounts                    Anchor=Home
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText                   More                        Anchor=Account Scorecard
+    ClickText                   More                        Anchor=2
     ClickText                   Critical Minute
     ClickText                   New Task
     DropDown                    None                        Call
