@@ -491,6 +491,9 @@ Draft Beer Calculator
 Packaged Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
+    Select the first Account
+    ClickText                   More                        Anchor=2
+    ClickText                   Profit Calculator
     ClickText                   Packaged Calculator
     TypeText                    Competitor Packaged Name    beer1
     TypeText                    Case Cost (Price to Retailer)                           23
