@@ -24,6 +24,5 @@ Command Center for FSR
     Packaged Beer Calculator
     Spirit Calculator
     Create Task
-    Create Task
 
 
