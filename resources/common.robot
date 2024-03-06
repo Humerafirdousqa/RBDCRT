@@ -546,6 +546,7 @@ Spirit Calculator
     TypeText                    Search by product name, item number, pkg type           New                         Anchor=2
     Sleep                       3s
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
+    Sleep                       5s
     TypeText                    Price per Serving (Price to Consumer)                   50                          Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)                      1.5                         Anchor=2
     TypeText                    Cases Sold per Month        6                           Anchor=2
