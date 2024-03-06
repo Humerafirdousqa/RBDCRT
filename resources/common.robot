@@ -481,6 +481,7 @@ Draft Beer Calculator
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
     TypeText                    Serving Size in Ounces (Pour Size)                      5                           Anchor=2
     TypeText                    Velocity per Month (Number of Kegs)                     5.3                         Anchor=2
+    Sleep                       5s
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Draft Beer profit calculation
@@ -513,6 +514,7 @@ Packaged Beer Calculator
     ClickText                   Retail Package Size         Anchor=2
     ClickText                   6 Pack                      Anchor=2
     TypeText                    Cases Sold per Month        5                           Anchor=2
+    Sleep                       5s
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
@@ -545,6 +547,7 @@ Spirit Calculator
     TypeText                    Price per Serving (Price to Consumer)                   50                          Anchor=2
     TypeText                    Pour Size (Serving Size in Ounces)                      1.5                         Anchor=2
     TypeText                    Cases Sold per Month        6                           Anchor=2
+    Sleep                       5s
     ClickText                   Calculate
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
