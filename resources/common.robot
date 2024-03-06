@@ -516,6 +516,7 @@ Packaged Beer Calculator
     TypeText                    Cases Sold per Month        5                           Anchor=2
     Sleep                       5s
     ClickText                   Calculate
+    Sleep                       5s
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
     ClickText                   Save                        partial_match=False
@@ -549,6 +550,7 @@ Spirit Calculator
     TypeText                    Cases Sold per Month        6                           Anchor=2
     Sleep                       5s
     ClickText                   Calculate
+    Sleep                       5s
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
     ClickText                   Save                        partial_match=False
