@@ -528,7 +528,7 @@ Spirit Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
     Select the first Account
-    ClickText                   More                        Anchor=2
+    #ClickText                   More                        Anchor=2
     ClickText                   Profit Calculator
     ClickText                   Spirit Calculator
     TypeText                    Competitor Spirit Name      Spirit1
