@@ -486,6 +486,7 @@ Draft Beer Calculator
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Draft Beer profit calculation
     ClickText                   Save                        partial_match=False
+    Sleep                       3s
     ClickText                   Draft Beer profit calculation
     VerifyText                  Profit Calculation\Draft Beer profit calculation
 
@@ -520,6 +521,7 @@ Packaged Beer Calculator
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
     ClickText                   Save                        partial_match=False
+    Sleep                       3s
     ClickText                   Packaged Beer profit calculation
     VerifyText                  Profit Calculation\Packaged Beer profit calculation
 
@@ -556,6 +558,7 @@ Spirit Calculator
     ClickText                   Save for Later
     TypeText                    Profit Calculation Record Name                          Packaged Beer profit calculation
     ClickText                   Save                        partial_match=False
+    Sleep                       3s
     ClickText                   Packaged Beer profit calculation
     VerifyText                  Profit Calculation\Packaged Beer profit calculation
 
