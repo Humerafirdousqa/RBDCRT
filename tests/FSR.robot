@@ -23,6 +23,7 @@ Command Center for FSR
     Draft Beer Calculator
     Packaged Beer Calculator
     Spirit Calculator
+    Create Failed Scan
     Create Task
 
 
