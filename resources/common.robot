@@ -398,7 +398,7 @@ Verify Home page for FSR
     ClickText                   More                        Anchor=2
     VerifyText                  Home
     VerifyText                  Spirits Business Objective
-    VerifyText                  ELITE Dashboard
+    VerifyText                  Elite Dashboard
     VerifyText                  DSOF
     VerifyText                  Cases
     VerifyText                  My Open Pinned Products
