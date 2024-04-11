@@ -7,7 +7,7 @@ Library                         DateTime
 # IMPORTANT: Please read the readme.txt to understand needed variables and how to handle them!!
 ${BROWSER}                      chrome
 ${username}                     hfirdous@reyesholdings.com.uat
-${automationpassword}           Beer1234567!
+${automationpassword}           Beer12345678!
 ${login_url}                    https://e360--uat.sandbox.my.salesforce.com/            # Salesforce instance. NOTE: Should be overwritten in CRT variables
 ${home_url}                     ${login_url}/lightning/page/home
 
