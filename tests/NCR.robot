@@ -37,7 +37,7 @@ Create NCR as an FSR
     ${LastRand}=          Generate Random String      6                         [LOWER]
     #ClickText             New Customer Request
     SwitchWindow          NEW
-    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI                      selltype=House Account
+    Create NCR as FSR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    BU=FDI    selltype=House Account
     VerifyText            Awaiting Manager Approval
 
 Create NCR as FSR Manager
