@@ -571,6 +571,8 @@ Select the first Account
 Select the first Case
     [Documentation]             This to click first Case in the list View
     [Arguments]
+    ClickText                   Show Navigation Menu
+    Sleep                       3s
     ClickText                   Cases
     ClickText                   Select a List View: Cases
     ClickText                   General ISR Case Queue
