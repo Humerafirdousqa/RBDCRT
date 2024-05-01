@@ -333,7 +333,7 @@ Create Order within 7 days
     [Arguments]
     ClickText                   Show Navigation Menu
     ClickText                   Accounts
-    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    Select the first Account
     ClickText                   New Order
     Select Future Date          4 days                      Delivery Date
     UseModal                    On
