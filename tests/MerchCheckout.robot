@@ -17,4 +17,5 @@ Create MerchCheckout with and without Breakage
     Login As Merch        Ronald Starke
     Select the first Account
     Create Merch Checkout with Breakage
+    Sleep                 5s
     Create Merch Checkout without Breakage
