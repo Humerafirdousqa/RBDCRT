@@ -744,8 +744,6 @@ Create Order on a Case
     [Documentation]             Create Order on a Case
     [Arguments]
     #ClickText                  Minimize
-    ClickText                   Show Navigation Menu
-    Sleep                       3s
     Select the first Case
     ClickText                   New Order
     ClickText                   Select a date for           anchor=Clear
