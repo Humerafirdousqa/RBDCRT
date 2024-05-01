@@ -331,6 +331,7 @@ ClickNext
 Create Order within 7 days
     [Documentation]             This is to create order within 7 Days
     [Arguments]
+    ClickText                   Show Navigation Menu
     ClickText                   Accounts
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     ClickText                   New Order
