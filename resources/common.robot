@@ -395,7 +395,7 @@ Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
     Sleep                       5s
-    ClickText                   More                        Anchor=2
+    #ClickText                   More                        Anchor=2
     VerifyText                  Home
     VerifyText                  Spirits Business Objective
     VerifyText                  Elite Dashboard
