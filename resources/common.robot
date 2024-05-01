@@ -405,7 +405,7 @@ Verify Home page for FSR
     VerifyText                  Tasks                       Anchor=2
     VerifyText                  New Customer Requests       Anchor=2
     VerifyText                  Newsletter
-    VerifyText                  Dashboard                   Anchor=2                   
+    VerifyText                  Dashboard                   Anchor=Newsletter                   
     VerifyText                  Task Reporting
     ClickText                   Show menu
     VerifyText                  VIP Begin Day
