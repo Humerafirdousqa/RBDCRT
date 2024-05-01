@@ -645,16 +645,24 @@ Create Elite Survey
     TypeText                    Question Comments           dddd                        anchor=Is the overall display of cases on the sales floor at standard as defined by the business?
     ClickText                   Upload Files                anchor=Display Cases Picture
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    DropDown                    *Are planner items merchandised and executed?           N/A
-    DropDown                    *Are legal consumer offers equal to or greater than competition?                    Yes
-    DropDown                    *Do displays have legal POS equal to greater than competition?                      No
-    DropDown                    *Is the cooler set by schematic with correct pricing and packages?                  N/A
-    DropDown                    *Is the RBG Product Quality Policy being followed?      Yes
-    DropDown                    *Is the back room clean and organized?                  No
-    DropDown                    *Does RBG have any controllable Out of Stocks?          N/A
-    DropDown                    What steps of Consultant of Choice were followed?       Uncover Information
-    DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
-    DropDown                    Sales Tools                 Circana
+    DropDown                    *Are planner items merchandised and executed?           Yes
+    TypeText                    Question Comments           eeee                        anchor=Are planner items merchandised and executed?
+    ClickText                   Upload Files                anchor=Planner Items Image
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    DropDown                    *Are all beyond beer non alc products executed as defined by the business?                        Yes
+    DropDown                    *Do displays have legal consumer offers and legal POS equal to, or greater than competition?      Yes
+    DropDown                    *Is the cooler set by schematic with correct pricing and packages?                        Yes
+    DropDown                    *Is the RBG Product Quality Policy being followed?                        Yes
+    DropDown                    *Is the back room clean and organized?*                        Yes
+    DropDown                    *Does RBG have any controllable Out of Stocks?                 Yes
+    DropDown                    *Is E360 updated with current buyer contact/email info?                 Yes
+    MultiPickList               Were the Consultant 2.0 steps to a Sales Call followed?                 Prepare to make the call.
+    ClickText                   Move selection to Selected
+    MultiPickList               Were the Consultant 2.0 steps to a Sales Call followed?                 Prepare to make the Sales Presentation.
+    ClickText                   Move selection to Selected
+    DropDown                    *Were any existing sales tools used to secure features or distribution during sales?      Yes
+    MultiPickList               Sales Tools                        Elite Performance Sales Dashboard
+    ClickText                   Move selection to Selected    anchor=Available
     ClickText                   Next                        anchor=Previous
     ClickText                   Capture Signature
     ClickText                   Next
