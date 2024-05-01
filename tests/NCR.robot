@@ -16,7 +16,7 @@ Create NCR from a Case
     [Tags]                NCR
     Login
     Login As ISR          Regina Peters
-    Open Specific case    CasetoOpen=00092147
+    Select the first Case
     ClickText             Create NCR
     ${DBARand}=           Generate Random String      6                         [LOWER]
     ${FirstRand}=         Generate Random String      6                         [LOWER]
