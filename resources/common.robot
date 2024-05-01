@@ -400,12 +400,12 @@ Verify Home page for FSR
     #VerifyText                  Spirits Business Objective
     VerifyText                  Elite Dashboard
     VerifyText                  DSOF
-    VerifyText                  Cases    Anchor=2
+    VerifyText                  Cases    Index=DSOF
     VerifyText                  My Open Pinned Products
     VerifyText                  Tasks                       Anchor=2
     VerifyText                  New Customer Requests       Anchor=2
     VerifyText                  Newsletter
-    VerifyText                  Dashboard                   
+    VerifyText                  Dashboard                   Anchor=2                   
     VerifyText                  Task Reporting
     ClickText                   Show menu
     VerifyText                  VIP Begin Day
