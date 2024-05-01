@@ -57,8 +57,6 @@ Login As ISR
     Sleep                       2s
     ClickText                   Minimize
     Sleep                       2s
-    ClickText                   Show Navigation Menu
-    Sleep                       2s
 
 Login As FSR
     [Documentation]             Login As different persona. User needs to be logged into Salesforce with Admin rights
