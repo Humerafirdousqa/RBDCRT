@@ -332,7 +332,7 @@ Create Order within 7 days
     [Documentation]             This is to create order within 7 Days
     [Arguments]
     ClickText                   Show Navigation Menu
-    ClickText                   Accounts    anchor=Home
+    ClickText                   Accounts    Partialmatch=false
     Select the first Account
     ClickText                   New Order
     Select Future Date          4 days                      Delivery Date
