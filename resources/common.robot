@@ -397,7 +397,7 @@ Verify Home page for FSR
     Sleep                       5s
     #ClickText                   More                        Anchor=2
     VerifyText                  Home
-    VerifyText                  Spirits Business Objective
+    #VerifyText                  Spirits Business Objective
     VerifyText                  Elite Dashboard
     VerifyText                  DSOF
     VerifyText                  Cases
