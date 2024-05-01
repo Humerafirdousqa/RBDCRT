@@ -776,7 +776,6 @@ Create Task FSR
     [Documentation]             This is to create Task
     [Arguments]
     Select the first Account
-    ClickText                   More                        Anchor=2
     ClickText                   New Task
     DropDown                    None                        Call
     ClickText                   Next                        anchor=Select a Record Type
