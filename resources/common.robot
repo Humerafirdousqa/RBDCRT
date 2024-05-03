@@ -467,6 +467,7 @@ Verify Home page for Merch
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
+    ClickText                   Profit Calculator
     TypeText                    Competitor Draft Name       beer1
     TypeText                    Price per Keg (Price to Retailer)                       23
     ClickElement                xpath\=//*[@class\='slds-combobox__input slds-input_faux fix-slds-input_faux']
