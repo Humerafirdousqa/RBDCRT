@@ -566,7 +566,7 @@ Spirit Calculator
 Select the first Account
     [Documentation]             This to click first Account in the list View
     [Arguments]
-    ClickText                   Accounts
+    ClickText                   Accounts    Partial_match=False
     sleep                       3s
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
 
