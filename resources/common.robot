@@ -832,7 +832,7 @@ Verify tab order on Account
     VerifyText                  Profit Calculator
     VerifyText                  Chatter
     VerifyText                  Allocations
-    ClickText                   More                        Anchor=2
+    ClickText                   More
     VerifyText                  Visit History
     VerifyText                  Order History
     VerifyText                  Account Scorecard
