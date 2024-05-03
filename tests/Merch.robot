@@ -17,6 +17,7 @@ Merch App
     Login As Merch      Ronald Starke
     Verify Home page for Merch
     Select the first Account
+    Verify tabs on Account
     Create Merch Checkout with Breakage
     Sleep                 5s
     Create Merch Checkout without Breakage
