@@ -464,6 +464,7 @@ Verify Home page for Merch
     SwitchWindow                NEW
     SwitchWindow                3
     VerifyText                  Training Files
+    SwitchWindow                2
 Draft Beer Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
