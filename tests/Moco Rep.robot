@@ -20,6 +20,8 @@ Reyes Beverages App
     ClickText                   Survey                      Anchor=Visit History
     ClickText                   New Out of Code Survey
     ClickElement                xpath\=//*[@class\='slds-input']
+    TypeText    combobox-search    re
+    ClickText    icon
     TypeText                    * Search for a Product    tr
     Sleep                       5s
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
