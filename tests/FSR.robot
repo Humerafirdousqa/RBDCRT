@@ -25,5 +25,6 @@ Reyes Beverages App
     Spirit Calculator
     Create Failed Scan
     Create Task FSR
+    View and Download Invoice
 
 
