@@ -17,3 +17,24 @@ Reyes Beverages App
     Login
     Login As Moco Rep                Genaro Mina
     Select the first Account
+    
+
+    ClickText    Survey    partial_match=False
+    ClickText    New Out of Code Survey
+    TypeText    combobox-search    re
+    ClickText    icon
+    TypeText    *Product Quantity    1
+    ClickText    *Out of Code Date
+    UseTable    Sun
+    ClickCell    r3c4
+    ClickText    Add Product
+    TypeText    combobox-search    tr
+    ClickText    icon    anchor=* Search for a Product
+    TypeText    *Product Quantity    1
+    ClickText    *Pickup Date    anchor=* Search for a Product
+    ClickCell    r3c7
+    ClickText    *Out of Code Date    anchor=* Search for a Product
+    ClickCell    r5c5
+    TypeText    Additional Comments    comments
+    ClickText    Next
+    ClickText    Finish
