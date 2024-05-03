@@ -54,9 +54,9 @@ Login As ISR
     ClickText                   User                        anchor=${persona}           delay=5                     # wait for list to populate, then click
     VerifyText                  Freeze                      timeout=45                  # this is slow, needs longer timeout
     ClickText                   Login                       anchor=Freeze               delay=1
-    Sleep                       2s
+    Sleep                       5s
     ClickText                   Minimize
-    Sleep                       2s
+    Sleep                       5s
 
 Login As FSR
     [Documentation]             Login As different persona. User needs to be logged into Salesforce with Admin rights
