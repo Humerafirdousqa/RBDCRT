@@ -18,6 +18,7 @@ Bevline App
     Login As ISR          Regina Peters
     Verify Home page for ISR
     Create Task ISR
+    Verify tab order on Account
     Draft Beer Calculator
     Packaged Beer Calculator
     Spirit Calculator
