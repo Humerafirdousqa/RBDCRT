@@ -845,17 +845,17 @@ Verify tabs on Account
     [Documentation]             This is to verify tabs on Account for Merch
     [Arguments]
     VerifyText                  Merch Tasks
-    VerifyText                  Account Scorecard                 
-    VerifyText                  Details                    
+    VerifyText                  Account Scorecard
+    VerifyText                  Details
     VerifyText                  Nearby Accounts
     VerifyText                  Visit History
-    VerifyText                  Surveys                 
-    VerifyText                  Alerts                    
+    VerifyText                  Surveys
+    VerifyText                  Alerts
     VerifyText                  Orders and Invoices
-    VerifyText                  Chatter
-    VerifyText                  Contacts                 
-    VerifyText                  Pinned Products                    
-    VerifyText                  Cases
+    VerifyText                  Chatter                     Anchor=2
+    VerifyText                  Contacts                    Anchor=2
+    VerifyText                  Pinned Products
+    VerifyText                  Cases                       Anchor=2
 
 View and Download Invoice
     [Documentation]             This is view and Download Invoice
