@@ -671,7 +671,7 @@ Create Elite Survey
     DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
     MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?                            Prepare to make the Sales Presentation.
-    ClickElement                xpath\=//*[@id\="slds-button slds-button_icon slds-button_icon-container"]
+    ClickElement                xpath\=//*[@class\='slds-button slds-button_icon slds-button_icon-container']
     ClickText                   Move selection to Selected
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
     MultiPickList               Sales Tools                 Elite Performance Sales Dashboard
