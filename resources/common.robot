@@ -800,6 +800,8 @@ Create Task FSR
 Create Task ISR
     [Documentation]             This is to create Task
     [Arguments]
+    ClickText                   Show Navigation Menu
+    ClickText                   Accounts
     Select the first Account
     ClickText                   More                        Anchor=2
     ClickText                   Critical Minute
