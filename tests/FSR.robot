@@ -1,4 +1,5 @@
 *** Settings ***
+Library    QWeb
 Resource                        ../resources/common.robot
 Suite Setup                     Setup Browser
 Suite Teardown                  End suite
@@ -26,5 +27,3 @@ Reyes Beverages App
     Create Failed Scan
     Create Task FSR
     View and Download Invoice
-
-
