@@ -841,6 +841,22 @@ Verify tab order on Account
     VerifyText                  Market Trends
     VerifyText                  Nearby Accounts
 
+Verify tabs on Account
+    [Documentation]             This is to verify tabs on Account for Merch
+    [Arguments]
+    VerifyText                  Merch Tasks
+    VerifyText                  Account Scorecard                 
+    VerifyText                  Details                    
+    VerifyText                  Nearby Accounts
+    VerifyText                  Visit History
+    VerifyText                  Surveys                 
+    VerifyText                  Alerts                    
+    VerifyText                  Orders and Invoices
+    VerifyText                  Chatter
+    VerifyText                  Contacts                 
+    VerifyText                  Pinned Products                    
+    VerifyText                  Cases
+
 View and Download Invoice
     [Documentation]             This is view and Download Invoice
     [Arguments]
