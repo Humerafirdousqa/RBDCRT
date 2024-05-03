@@ -836,7 +836,7 @@ Verify tab order on Account
     VerifyText                  Order History
     VerifyText                  Account Scorecard
     VerifyText                  FSR/OMNI Visit Day
-    VerifyText                  Test Transcripts
+    VerifyText                  Text Transcripts
     VerifyText                  Market Trends
     VerifyText                  Nearby Accounts
 
