@@ -10,9 +10,9 @@ Library                         String
 
 
 *** Test Cases ***
-Command Center for FSR
-    [Documentation]             This is to Validate Command Center
-    [Tags]                      Command Center
+Reyes Beverages App
+    [Documentation]             This is to Validate Reyes Beverages App
+    [Tags]                      Reyes Beverages App
     Login
     Login As FSR                Charles Kirk
     Verify Home page for FSR
