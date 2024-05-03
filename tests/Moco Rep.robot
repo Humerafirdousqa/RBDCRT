@@ -1,0 +1,19 @@
+*** Settings ***
+Library    QWeb
+Resource                        ../resources/common.robot
+Suite Setup                     Setup Browser
+Suite Teardown                  End suite
+Library                         DateTime
+Library                         String
+
+
+*** Variables ***
+
+
+*** Test Cases ***
+Reyes Beverages App
+    [Documentation]             This is to Validate Reyes Beverages App
+    [Tags]                      Reyes Beverages App
+    Login
+    Login As Moco Rep                Genaro Mina
+    Select the first Account
