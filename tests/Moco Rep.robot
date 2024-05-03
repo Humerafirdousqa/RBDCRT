@@ -19,8 +19,9 @@ Reyes Beverages App
     Select the first Account
     ClickText                   Survey                      Anchor=Visit History
     ClickText                   New Out of Code Survey
-    ComboBox                    *Search for a Product          re
-    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickElement                xpath\=//*[@class\='slds-input']
+    TypeText                    combobox-search    tr
+    ClickText    icon
     TypeText                    *Product Quantity           1
     ClickText                   *Out of Code Date
     UseTable                    Sun
