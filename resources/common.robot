@@ -449,6 +449,8 @@ Verify Home page for ISR
     SwitchWindow                NEW
     SwitchWindow                3
     VerifyText                  Training Files
+    SwitchWindow                2
+
 
 Verify Home page for Merch
     [Documentation]             This is to verify command center for Merch
