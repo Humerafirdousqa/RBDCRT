@@ -230,7 +230,7 @@ Create NCR as FSR
     [Documentation]
     [Arguments]                 ${DBAName}                  ${firstName}                ${lastName}                 ${BU}                       ${selltype}
     UseModal                    On
-    TypeText                    *D.B.A. Name                 ${DBAName}                  timeout=5s                 partial_match=False
+    TypeText                    *D.B.A. Name                ${DBAName}                  timeout=5s                  partial_match=False
     TypeText                    First Name                  ${firstName}
     TypeText                    Last Name                   ${lastName}
     DropDown                    *                           ${BU}
@@ -332,7 +332,7 @@ Create Order within 7 days
     [Documentation]             This is to create order within 7 Days
     [Arguments]
     ClickText                   Show Navigation Menu
-    ClickText                   Accounts    Partialmatch=false
+    ClickText                   Accounts                    Partialmatch=false
     Select the first Account
     ClickText                   New Order
     Select Future Date          4 days                      Delivery Date
@@ -394,17 +394,17 @@ Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
     Sleep                       5s
-    #ClickText                   More                        Anchor=2
+    #ClickText                  More                        Anchor=2
     VerifyText                  Home
-    #VerifyText                  Spirits Business Objective
+    #VerifyText                 Spirits Business Objective
     VerifyText                  Elite Dashboard
     VerifyText                  DSOF
-    VerifyText                  Cases    Anchor=DSOF
+    VerifyText                  Cases                       Anchor=DSOF
     VerifyText                  My Open Pinned Products
     VerifyText                  Tasks                       Anchor=2
     VerifyText                  New Customer Requests       Anchor=2
     VerifyText                  Newsletter
-    VerifyText                  Dashboard                   Anchor=Newsletter                   
+    VerifyText                  Dashboard                   Anchor=Newsletter
     VerifyText                  Task Reporting
     ClickText                   Show menu
     VerifyText                  VIP Begin Day
@@ -532,7 +532,7 @@ Spirit Calculator
     [Documentation]             This is to test Profit Calculator
     [Arguments]
     Select the first Account
-    #ClickText                   More                        Anchor=2
+    #ClickText                  More                        Anchor=2
     ClickText                   Profit Calculator
     ClickText                   Spirit Calculator
     TypeText                    Competitor Spirit Name      Spirit1
@@ -567,7 +567,7 @@ Spirit Calculator
 Select the first Account
     [Documentation]             This to click first Account in the list View
     [Arguments]
-    ClickText                   Accounts    Partial_match=False
+    ClickText                   Accounts                    Partial_match=False
     sleep                       3s
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
 
@@ -662,18 +662,18 @@ Create Elite Survey
     TypeText                    Question Comments           eeee                        anchor=Are planner items merchandised and executed?
     ClickText                   Upload Files                anchor=Planner Items Image
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    DropDown                    *Are all beyond beer non alc products executed as defined by the business?                        Yes
-    DropDown                    *Do displays have legal consumer offers and legal POS equal to, or greater than competition?      Yes
-    DropDown                    *Is the cooler set by schematic with correct pricing and packages?                        Yes
-    DropDown                    *Is the RBG Product Quality Policy being followed?                        Yes
-    DropDown                    *Is the back room clean and organized?*                        Yes
-    DropDown                    *Does RBG have any controllable Out of Stocks?                 Yes
-    DropDown                    Is E360 updated with current buyer contact/email info?    Yes
-    MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?                 Prepare to make the Sales Presentation.
+    DropDown                    *Are all beyond beer non alc products executed as defined by the business?          Yes
+    DropDown                    *Do displays have legal consumer offers and legal POS equal to, or greater than competition?                    Yes
+    DropDown                    *Is the cooler set by schematic with correct pricing and packages?                  Yes
+    DropDown                    *Is the RBG Product Quality Policy being followed?      Yes
+    DropDown                    *Is the back room clean and organized?*                 Yes
+    DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
+    DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
+    MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?                            Prepare to make the Sales Presentation.
     ClickText                   Move selection to Selected
-    DropDown                    *Were any existing sales tools used to secure features or distribution during sales?      Yes
-    MultiPickList               Sales Tools                        Elite Performance Sales Dashboard
-    ClickText                   Move selection to Selected    anchor=Available
+    DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
+    MultiPickList               Sales Tools                 Elite Performance Sales Dashboard
+    ClickText                   Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
     ClickText                   Capture Signature
     ClickText                   Next
@@ -820,6 +820,25 @@ Create Task ISR
     ClickCheckbox               Photo Required              on
     ClickCheckbox               Photo Required              off
     ClickText                   Save
+
+Verify tab order on Account
+    [Documentation]             This is to verify tab order on Account for ISR
+    [Arguments]
+    VerifyText                  Activity
+    VerifyText                  Open Orders                 partial_match=False
+    VerifyText                  Invoices                    partial_match=False
+    VerifyText                  Critical Minute
+    VerifyText                  Profit Calculator
+    VerifyText                  Chatter
+    VerifyText                  Allocations
+    ClickText                   More                        Index=2
+    VerifyText                  Visit History
+    VerifyText                  Order History
+    VerifyText                  Account Scorecard
+    VerifyText                  FSR/OMNI Visit Day
+    VerifyText                  Test Transcripts
+    VerifyText                  Market Trends
+    VerifyText                  Nearby Accounts
 
 View and Download Invoice
     [Documentation]             This is view and Download Invoice
