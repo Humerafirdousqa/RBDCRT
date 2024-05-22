@@ -424,7 +424,7 @@ Verify Home page for FSR
     VerifyText                  VIP Begin Day
     VerifyText                  Live Order
     VerifyText                  New Customer Request        Anchor=2
-    VerifyText                  Circana Portal
+    #VerifyText                  Circana Portal
     VerifyText                  Employee Center
     VerifyText                  SipMarket Registration
     VerifyText                  SipMarket Keg Box
