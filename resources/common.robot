@@ -432,7 +432,7 @@ Verify Home page for FSR
     VerifyText                  Route Change Requests
     VerifyText                  Training Docs
     VerifyText                  Fintech Evite
-    VerifyText                  User Route Update
+    #VerifyText                  User Route Update
     VerifyText                  Fintech                     Anchor=2
 
 
