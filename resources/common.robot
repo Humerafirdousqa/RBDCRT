@@ -852,9 +852,11 @@ Verify tab order on Account
     VerifyText                  Visit History
     VerifyText                  Order History
     VerifyText                  Account Scorecard
+    VerifyText                  Circana/NIQ
     VerifyText                  FSR/OMNI Visit Day
     VerifyText                  Text Transcripts
     VerifyText                  Market Trends
+    VerifyText                  Sales Trends
     VerifyText                  Nearby Accounts
 
 Verify tabs on Account
