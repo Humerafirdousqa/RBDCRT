@@ -23,5 +23,4 @@ Merch App
     Create Merch Checkout with Breakage
     Sleep                       5s
     Create Merch Checkout without Breakage
-    ClickText                   Merch Checkout
-    UseModal                    On
+
