@@ -27,33 +27,24 @@ Merch App
     DropDown                    Were any RBG cases missed during service?                           10
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 1 Image
     DropDown                    Are Displays properly rotated?                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           10
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: 0 - 10
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    DropDown                    *                           Yes
-    ClickText                   Upload FilesOr drop files                               anchor=Please select a value: Yes or No
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
-    TypeText                    *                           comments
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 2 Image
+    DropDown                    How many RBG cases were out of rotation in the cooler?                           10
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 3 Image
+    DropDown                    Are the displays safely built? Properly tied up? Built to Standard?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 4 Image
+    DropDown                    Are the shelves stocked according to RBG company standard?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 5 Image
+    DropDown                    Is the back room organized, workable and condensed?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 6 Image
+    DropDown                    Is the backstock rotated?                            Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 7 Image
+    DropDown                    Is the breakage stored/staged in the proper place?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 8 Image
+    DropDown                    Did the Merchandiser clean up all the trash before leaving the store?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 9 Image
+    DropDown                    Did the Merchandiser fill and face all Non-Alcoholic product(s)?                           Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 10 Image
+    TypeText                    Comments                           comments
     ClickText                   Next
     VerifyText                  Thank you for successfully filling out the Elite Merch Store Survey, have a great rest of your day.
     ClickText                   close
