@@ -736,10 +736,8 @@ Create Elite Survey
     ClickText                   Move selection to Selected
     ComboBox                    *Were the Consultant 2.0 steps to a Sales Call followed?                            Take Inventory.
     ClickText                   Move selection to Selected
-
-    #ClickElement               //*[@id\="slds-button slds-button_icon slds-button_icon-container"]
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
-    MultiPickList               Sales Tools                 Elite Performance Sales Dashboard
+    ComboBox                    Sales Tools                 Elite Performance Sales Dashboard
     ClickText                   Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
     ClickText                   Capture Signature
