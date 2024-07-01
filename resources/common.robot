@@ -690,6 +690,18 @@ Create New Elite Merch Survey
     ClickText                   close
     ClickText                   Yes
 
+Create Data Driven Survey
+    [Documentation]            Create data driven survey
+    [Arguments]                
+    ClickText    New Data Driven Wins Survey
+    TypeText    input-1432    opportunity seen at the account
+    TypeText    input-1433    circana fact based data presented
+    TypeText    input-1434    result
+    ClickText    Upload FilesOr drop files
+    TypeText    Upload FilesOr drop files    C:\\fakepath\\MicrosoftTeams-image (56).png
+    ClickText    Finish Survey
+    ClickText    Close
+
 
 Create Elite Survey
     [Documentation]             Create Elite Survey
