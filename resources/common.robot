@@ -735,7 +735,7 @@ Create Elite Survey
     MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?                            Prepare to make the Sales Presentation.
     #ClickElement                xpath\=//button[@class\='slds-button slds-button_icon slds-button_icon-container'][normalize-space()\='Move selection to Selected']
     #ClickElement                //*[@id\="slds-button slds-button_icon slds-button_icon-container"]
-    ClickText                   Move selection to Selected
+    ClickText                   Move selection to Selected                        Prepare to make the Sales Presentation.                        
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
     MultiPickList               Sales Tools                 Elite Performance Sales Dashboard
     ClickText                   Move selection to Selected                              anchor=Available
