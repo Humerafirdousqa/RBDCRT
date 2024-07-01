@@ -693,6 +693,7 @@ Create New Elite Merch Survey
 Create Data Driven Survey
     [Documentation]            Create data driven survey
     [Arguments]                
+    ClickText    Data Driven Wins Surveys    anchor=Menu Surveys
     ClickText    New Data Driven Wins Survey
     TypeText    input-1432    opportunity seen at the account
     TypeText    input-1433    circana fact based data presented
