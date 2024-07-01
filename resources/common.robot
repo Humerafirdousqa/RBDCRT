@@ -732,8 +732,8 @@ Create Elite Survey
     DropDown                    *Is the back room clean and organized?*                 Yes
     DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
-    MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?                            Prepare to make the Sales Presentation.
-    ClickElement                xpath\=//*button[@title='Move to Selected']//lightning-primitive-icon[@exportparts='icon']
+    MultiPickList               *Were the Consultant 2.0 steps to a Sales Call followed?     Prepare to make the call
+    ClickText                   Move selection to Chosen
     #ClickElement                //*[@id\="slds-button slds-button_icon slds-button_icon-container"]
     ClickText                   Move selection to Selected                        Prepare to make the Sales Presentation.                        
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
