@@ -18,6 +18,7 @@ Reyes Beverages App
     Login As FSR                Charles Kirk
     Verify Home page for FSR
     Create Elite Survey
+    Create Data Driven Survey
     Create Merch Checklist
     ClickText                   More                        Anchor=2
     ClickText                   Profit Calculator
