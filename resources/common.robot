@@ -407,7 +407,7 @@ Create Future Order
 Verify Home page for FSR
     [Documentation]             This is to verify command center for FSR
     [Arguments]
-    #Sleep                       5s
+    #Sleep                      5s
     #ClickText                  More                        Anchor=2
     VerifyText                  Home
     #VerifyText                 Spirits Business Objective
@@ -424,7 +424,7 @@ Verify Home page for FSR
     VerifyText                  VIP Begin Day
     VerifyText                  Live Order
     VerifyText                  New Customer Request        Anchor=2
-    #VerifyText                  Circana Portal
+    #VerifyText                 Circana Portal
     VerifyText                  Employee Center
     VerifyText                  SipMarket Registration
     VerifyText                  SipMarket Keg Box
@@ -432,7 +432,7 @@ Verify Home page for FSR
     VerifyText                  Route Change Requests
     VerifyText                  Training Docs
     VerifyText                  Fintech Evite
-    #VerifyText                  User Route Update
+    #VerifyText                 User Route Update
     VerifyText                  Fintech                     Anchor=2
 
 
@@ -456,7 +456,7 @@ Verify Home page for ISR
     VerifyText                  Web Board
     VerifyText                  Sharepoint
     VerifyText                  Employee Center
-    #VerifyText                  Circana Portal
+    #VerifyText                 Circana Portal
     VerifyText                  Fintech Evite
     VerifyText                  Training Docs
     ClickText                   Training Docs
@@ -657,51 +657,51 @@ Create Merch Checkout without Breakage
     ClickText                   Update/Close Checkout
 
 Create New Elite Merch Survey
-    [Documentation]    To create New Elite Merch Survey
+    [Documentation]             To create New Elite Merch Survey
     [Arguments]
     ClickText                   Surveys
     ClickText                   New ELITE Merch Survey
     DropDown                    *                           East
     ClickText                   Next
     ComboBox                    Search People...            Ronald Starke
-    DropDown                    Were any RBG cases missed during service?                           10
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 1 Image
-    DropDown                    Are Displays properly rotated?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 2 Image
-    DropDown                    How many RBG cases were out of rotation in the cooler?                           10
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 3 Image
-    DropDown                    Are the displays safely built? Properly tied up? Built to Standard?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 4 Image
-    DropDown                    Are the shelves stocked according to RBG company standard?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 5 Image
-    DropDown                    Is the back room organized, workable and condensed?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 6 Image
-    DropDown                    Is the backstock rotated?                            Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 7 Image
-    DropDown                    Is the breakage stored/staged in the proper place?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 8 Image
-    DropDown                    Did the Merchandiser clean up all the trash before leaving the store?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 9 Image
-    DropDown                    Did the Merchandiser fill and face all Non-Alcoholic product(s)?                           Yes
-    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png     Anchor=Question 10 Image
-    TypeText                    Comments                           comments
+    DropDown                    Were any RBG cases missed during service?               10
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 1 Image
+    DropDown                    Are Displays properly rotated?                          Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 2 Image
+    DropDown                    How many RBG cases were out of rotation in the cooler?                              10
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 3 Image
+    DropDown                    Are the displays safely built? Properly tied up? Built to Standard?                 Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 4 Image
+    DropDown                    Are the shelves stocked according to RBG company standard?                          Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 5 Image
+    DropDown                    Is the back room organized, workable and condensed?     Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 6 Image
+    DropDown                    Is the backstock rotated?                               Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 7 Image
+    DropDown                    Is the breakage stored/staged in the proper place?      Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 8 Image
+    DropDown                    Did the Merchandiser clean up all the trash before leaving the store?               Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 9 Image
+    DropDown                    Did the Merchandiser fill and face all Non-Alcoholic product(s)?                    Yes
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png      Anchor=Question 10 Image
+    TypeText                    Comments                    comments
     ClickText                   Next
     VerifyText                  Thank you for successfully filling out the Elite Merch Store Survey, have a great rest of your day.
     ClickText                   close
     ClickText                   Yes
 
 Create Data Driven Survey
-    [Documentation]            Create data driven survey
-    [Arguments]                
-    ClickText    Data Driven Wins Surveys    anchor=Menu Surveys
-    ClickText    New Data Driven Wins Survey
-    TypeText    input-1432    opportunity seen at the account
-    TypeText    input-1433    circana fact based data presented
-    TypeText    input-1434    result
-    ClickText    Upload FilesOr drop files
-    TypeText    Upload FilesOr drop files    C:\\fakepath\\MicrosoftTeams-image (56).png
-    ClickText    Finish Survey
-    ClickText    Close
+    [Documentation]             Create data driven survey
+    [Arguments]
+    ClickText                   Data Driven Wins Surveys    anchor=Menu Surveys
+    ClickText                   New Data Driven Wins Survey
+    TypeText                    input-1432                  opportunity seen at the account
+    TypeText                    input-1433                  circana fact based data presented
+    TypeText                    input-1434                  result
+    ClickText                   Upload FilesOr drop files
+    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
+    ClickText                   Finish Survey
+    ClickText                   Close
 
 
 Create Elite Survey
@@ -732,9 +732,12 @@ Create Elite Survey
     DropDown                    *Is the back room clean and organized?*                 Yes
     DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
-    ComboBox               *Were the Consultant 2.0 steps to a Sales Call followed?                        Prepare to make the call.                        
+    ComboBox                    *Were the Consultant 2.0 steps to a Sales Call followed?                            Prepare to make the call.
     ClickText                   Move selection to Selected
-    #ClickElement                //*[@id\="slds-button slds-button_icon slds-button_icon-container"]
+    ComboBox                    *Were the Consultant 2.0 steps to a Sales Call followed?                            Take Inventory.
+    ClickText                   Move selection to Selected
+
+    #ClickElement               //*[@id\="slds-button slds-button_icon slds-button_icon-container"]
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
     MultiPickList               Sales Tools                 Elite Performance Sales Dashboard
     ClickText                   Move selection to Selected                              anchor=Available
