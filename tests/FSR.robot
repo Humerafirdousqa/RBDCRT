@@ -17,7 +17,7 @@ Reyes Beverages App
     Login
     Login As FSR                Charles Kirk
     Verify Home page for FSR
-    ClickText             Show menu    Anchor=2
+    #ClickText             Show menu    Anchor=2
     ClickText             New Customer Request    Anchor=2        anchor=Live Order
     ${DBARand}=           Generate Random String      6                         [LOWER]
     ${FirstRand}=         Generate Random String      6                         [LOWER]
