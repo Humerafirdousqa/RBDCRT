@@ -268,10 +268,15 @@ Create NCR as FSR
     PickList                    Premise                     On Premise
     PickList                    Chain/Independent           Independent
     TypeText                    Chain                       Independent
-    ClickText                   Show All Results for
+    #ClickText                  Show more Results for "independent"
+    #ClickText                  Search Chains...
+    ClickText                   Show more results for "Independent"
     UseModal                    On
-    UseTable                    Sort Chain Name
-    ClickText                   Independent
+    ClickText                   INDEPENDENT                 anchor=Sort Chain Name
+    UseModal                    Off
+    #UseModal                   On
+    #UseTable                   Sort Chain Name
+    #ClickText                  Independent
     PickList                    Class                       Concessionaire
     PickList                    Sub Class                   Entertainment Venue
     PickList                    Civilian/Military           Civilian
@@ -732,7 +737,7 @@ Create Elite Survey
     DropDown                    *Is the back room clean and organized?*                 Yes
     DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
-    ComboBox                    Were the Consultant 2.0 steps to a Sales Call followed?                        Prepare to make the call.
+    ComboBox                    Were the Consultant 2.0 steps to a Sales Call followed?                             Prepare to make the call.
     ClickText                   Move selection to Selected
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
     ComboBox                    Sales Tools                 Elite Performance Sales Dashboard
