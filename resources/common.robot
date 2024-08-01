@@ -294,7 +294,7 @@ Create NCR as FSR
     ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday
     ClickText                   Move selection to Chosen    Anchor=Available
-    Sleep                       5s
+    Sleep                       10s
     #MultiPickList               Requested Delivery Days     Thursday
     #ClickText                   Move selection to Chosen
     #PickList                   Visit Frequency             Twice Per Week
