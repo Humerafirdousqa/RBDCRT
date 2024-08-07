@@ -701,7 +701,10 @@ Create Data Driven Survey
     [Arguments]
     ClickText                   Data Driven Wins Surveys    anchor=Menu Surveys
     ClickText                   New Data Driven Wins Survey
-    TypeText                    input-1432                  opportunity seen at the account
+    
+    TypeText                    What was the opportunity you saw at the account?    opportunity seen at the account    anchor=1    
+    #TypeText                    input-3563                 opportunity seen
+    #TypeText                    input-735                  opportunity seen at the account
     TypeText                    input-1433                  circana fact based data presented
     TypeText                    input-1434                  result
     ClickText                   Upload FilesOr drop files
