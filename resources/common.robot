@@ -704,8 +704,8 @@ Create Data Driven Survey
     TypeText                    What was the opportunity you saw at the account?    opportunity seen at the account    anchor=1    
     TypeText                    Explain what Circana fact-based data you presented.                  circana fact based data presented    anchor=2
     TypeText                    What was the result?                  result                        anchor=3
-    ClickText                   Upload FilesOr drop files
-    TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
+    ClickText                   Upload Files
+    UploadFile                  Upload Files                               /home/services/suite/MicrosoftTeams-image (56).png
     ClickText                   Finish Survey
     ClickText                   Close
 
