@@ -744,7 +744,7 @@ Create Elite Survey
     ComboBox                    Sales Tools                 Elite Performance Sales Dashboard
     ClickText                   Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
-    ClickText                   Capture Signature
+    #ClickText                   Capture Signature
     ClickText                   Next
     VerifyText                  Score:
     ClickText                   Finish
