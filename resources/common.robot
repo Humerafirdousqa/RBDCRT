@@ -701,12 +701,9 @@ Create Data Driven Survey
     [Arguments]
     ClickText                   Data Driven Wins Surveys    anchor=Menu Surveys
     ClickText                   New Data Driven Wins Survey
-    
     TypeText                    What was the opportunity you saw at the account?    opportunity seen at the account    anchor=1    
-    #TypeText                    input-3563                 opportunity seen
-    #TypeText                    input-735                  opportunity seen at the account
-    TypeText                    input-1433                  circana fact based data presented
-    TypeText                    input-1434                  result
+    TypeText                    Explain what Circana fact-based data you presented.                  circana fact based data presented    anchor=2
+    TypeText                    What was the result?                  result                        anchor=3
     ClickText                   Upload FilesOr drop files
     TypeText                    Upload FilesOr drop files                               C:\\fakepath\\MicrosoftTeams-image (56).png
     ClickText                   Finish Survey
