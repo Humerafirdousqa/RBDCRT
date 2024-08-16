@@ -22,10 +22,10 @@ Reyes Beverages App
     ClickText                   New Out of Code Survey
     ClickElement                xpath=(//a[@id\='flexipage_tab21__item'])
     ClickText                   New Out of Code Survey
-    ClickElement                xpath\=//*[@class\='//input[@id='input-1013']']
-    #TypeText                    * Search for a Product      tr
-    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
-    TypeText                    *Product Quantity           1
+    ClickText                   Search for a Product                
+    TypeText                    * Search for a Product      tr
+    #ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    #TypeText                    *Product Quantity           1
     ClickText                   *Out of Code Date
     UseTable                    Sun
     ClickCell                   r3c4
