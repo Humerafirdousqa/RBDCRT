@@ -188,7 +188,7 @@ Create NCR as ISR
     PickList                    Premise                     On Premise
     PickList                    Chain/Independent           Independent
     TypeText                    Chain                       Independent
-    ClickText                   Show All Results for
+    ClickText                   Show more results for "Independent"
     UseModal                    On
     UseTable                    Sort Chain Name
     ClickText                   Independent
