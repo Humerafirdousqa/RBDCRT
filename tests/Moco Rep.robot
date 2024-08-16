@@ -30,8 +30,8 @@ Reyes Beverages App
     UseTable                    Sun
     ClickCell                   r3c4
     ClickText                   Add Product
-    ClickElement                xpath\=//*[@class\='slds-input']      anchor=2              
-    TypeText                    xpath\=//*[@class\='slds-input']      tr    anchor=2
+    ClickElement                xpath\=//*[@class\='slds-input']      anchor=Product 2              
+    TypeText                    xpath\=//*[@class\='slds-input']      tr    anchor=Product 2
     ClickElement                xpath\=(//div[@role\='option'])[1]
 
     TypeText                    combobox-search             tr
