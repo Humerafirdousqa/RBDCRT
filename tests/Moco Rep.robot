@@ -15,7 +15,7 @@ Reyes Beverages App
     [Documentation]             This is to Validate Reyes Beverages App
     [Tags]                      Reyes Beverages App
     Login
-    Login As Moco Rep           Genaro Mina
+    Login As Moco Rep           Kevin Wall
     Select the first Account
     ClickText                   Survey                      Anchor=Visit History
     ClickText                   New Out of Code Survey
