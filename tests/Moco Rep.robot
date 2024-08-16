@@ -18,13 +18,15 @@ Reyes Beverages App
     Login As Moco Rep           Kevin Wall
     Select the first Account
     ClickText                   Survey                      Anchor=Visit History
-    ClickText                   Out Of Code Surveys
+    ClickText                   Out of Code Surveys
     ClickText                   New Out of Code Survey
+    #ClickText                  Out Of Code Surveys
+    #ClickText                  New Out of Code Survey
     ClickElement                xpath\=//*[@class\='slds-input']
     TypeText                    * Search for a Product      tr
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
 
-    
+
     TypeText                    *Product Quantity           1
     ClickText                   *Out of Code Date
     UseTable                    Sun
