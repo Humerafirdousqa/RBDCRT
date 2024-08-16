@@ -24,7 +24,7 @@ Reyes Beverages App
     ClickText                   New Out of Code Survey
     ClickElement                xpath\=//*[@class\='slds-input']              
     TypeText                    xpath\=//*[@class\='slds-input']      tr
-    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickElement                xpath\=(//div[@role\='option'])[1]
     TypeText                    *Product Quantity           1
     ClickText                   *Out of Code Date
     UseTable                    Sun
