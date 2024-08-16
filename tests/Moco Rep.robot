@@ -20,7 +20,7 @@ Reyes Beverages App
     ClickText                   Survey                      Anchor=Visit History
     ClickText                   Out of Code Surveys
     ClickText                   New Out of Code Survey
-    ClickElement                xpath\=//*[@class\='slds-tabs_default__link']
+    ClickElement                xpath=(//a[@id\='flexipage_tab21__item'])
     #ClickText                  New Out of Code Survey
     ClickElement                xpath\=//*[@class\='slds-input']
     TypeText                    * Search for a Product      tr
