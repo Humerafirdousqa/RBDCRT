@@ -601,6 +601,7 @@ Select the first Case
     ClickText                   Select a List View: Cases
     ClickText                   General ISR Case Queue
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickText                   More    anchor=Assign to Primary
 
 
 Create Merch Checklist
