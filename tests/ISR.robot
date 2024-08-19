@@ -31,4 +31,4 @@ Bevline App
     ${FirstRand}=         Generate Random String      6                         [LOWER]
     ${LastRand}=          Generate Random String      6                         [LOWER]
     Create NCR as ISR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    requestedFor=Charles Kirk                             BU=FDI                    selltype=House Account
-    VerifyText            Awaiting Manager Approval
+    VerifyText            Approved
