@@ -904,7 +904,7 @@ Verify tab order on Account
     VerifyText                  Profit Calculator
     VerifyText                  Chatter
     VerifyText                  Allocations
-    ClickText                   More
+    ClickText                   More                        anchor=Allocations
     VerifyText                  Visit History
     VerifyText                  Order History
     VerifyText                  Account Scorecard
