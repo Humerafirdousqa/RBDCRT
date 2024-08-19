@@ -720,6 +720,7 @@ Create Data Driven Survey
     TypeText                    What was the result?        result                      anchor=3
     ClickText                   Upload Files
     UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    Sleep                       5s
     ClickText                   Finish Survey
     ClickText                   Close
 
