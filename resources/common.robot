@@ -616,9 +616,7 @@ Select the Dupe first Case
     ClickText                   Select a List View: Cases
     ClickText                   Dupe report queue
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText                   Show more actions
-    ClickText                   Create NCR
-    UseModal                    On
+    
 Create Merch Checklist
     [Documentation]             To create Merch Checklist
     [Arguments]
