@@ -835,7 +835,7 @@ Create Order on a Case
     [Documentation]             Create Order on a Case
     [Arguments]
     #ClickText                  Minimize
-    Select the first Case
+    Select the Dupe first Case
     ClickText                   New Order
     ClickText                   Select a date for           anchor=Clear
     ClickText                   13
