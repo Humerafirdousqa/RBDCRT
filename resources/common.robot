@@ -835,8 +835,7 @@ Create Order on a Case
     #ClickText                  Minimize
     Select the Dupe first Case
     ClickText                   New Order
-    ClickText                   Select a date for           anchor=Clear
-    ClickText                   13
+    Select Future Date          4 days                      Delivery Date
     ClickText                   Select Origin               anchor=*
     ClickText                   Email To Order              anchor=Clear
     ClickText                   Order Products
