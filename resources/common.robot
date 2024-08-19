@@ -837,7 +837,8 @@ Create Order on a Case
     ClickText                   New Order
     Select Future Date          4 days                      Delivery Date
     ClickText                   Select Origin               
-    ClickText                   Email To Order              
+    ClickText                   Email To Order
+    Sleep                       5s              
     ClickText                   Order Products
     UseTable                    SortProduct Nameicon
     #ClickCell                  r1c8
