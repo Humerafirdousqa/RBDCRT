@@ -188,7 +188,7 @@ Create NCR as ISR
     PickList                    Premise                     On Premise
     PickList                    Chain/Independent           Independent
     TypeText                    Chain                       Independent
-    Sleep                       3s
+    Sleep                       5s
     ClickText                   Show more results for "Independent"
     UseModal                    On
     UseTable                    Sort Chain Name
