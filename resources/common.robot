@@ -756,8 +756,8 @@ Create Elite Survey
     #ClickText                   Move selection to Selected
     #VerifyList                  Prepare to make the call.                               Selected
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
-    ComboBox                    Sales Tools                 Elite Performance Sales Dashboard
-    ClickText                   Move selection to Selected                              anchor=Available
+    MultiPickList                    Sales Tools                 Elite Performance Sales Dashboard                        action=Move to Selected
+    #ClickText                   Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
     #ClickText                  Capture Signature
     ClickText                   Next
