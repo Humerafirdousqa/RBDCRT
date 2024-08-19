@@ -17,14 +17,6 @@ Bevline App
     Home
     Login As ISR          Regina Peters
     Verify Home page for ISR
-    Create Task ISR
-    Verify tab order on Account
-    Draft Beer Calculator
-    Packaged Beer Calculator
-    Spirit Calculator
-    Create Order within 7 days
-    Create Future Order
-    Create Order on a Case
     Select the first Case
     ClickText             Create NCR
     ${DBARand}=           Generate Random String      6                         [LOWER]
@@ -32,3 +24,12 @@ Bevline App
     ${LastRand}=          Generate Random String      6                         [LOWER]
     Create NCR as ISR     DBAName=${DBARand}          firstName=${FirstRand}    lastName=${LastRand}    requestedFor=Charles Kirk                             BU=FDI                    selltype=House Account
     VerifyText            Approved
+    Create Task ISR
+    Verify tab order on Account
+    Create Order within 7 days
+    Create Future Order
+    Create Order on a Case
+    Draft Beer Calculator
+    Packaged Beer Calculator
+    Spirit Calculator
+   
