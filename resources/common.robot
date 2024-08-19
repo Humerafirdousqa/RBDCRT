@@ -614,7 +614,7 @@ Select the Dupe first Case
     Sleep                       3s
     ClickText                   Cases
     ClickText                   Select a List View: Cases
-    ClickText                   Dupe report Queue
+    ClickText                   Dupe report queue
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
     ClickText                   Show more actions
     ClickText                   Create NCR
