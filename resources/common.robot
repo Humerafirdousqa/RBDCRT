@@ -606,6 +606,19 @@ Select the first Case
     ClickText                   Create NCR
     UseModal                    On
 
+
+Select the Dupe first Case
+    [Documentation]             This to click first Case in the list View
+    [Arguments]
+    ClickText                   Show Navigation Menu
+    Sleep                       3s
+    ClickText                   Cases
+    ClickText                   Select a List View: Cases
+    ClickText                   Dupe report Queue
+    ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
+    ClickText                   Show more actions
+    ClickText                   Create NCR
+    UseModal                    On
 Create Merch Checklist
     [Documentation]             To create Merch Checklist
     [Arguments]
