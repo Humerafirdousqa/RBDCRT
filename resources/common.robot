@@ -293,10 +293,10 @@ Create NCR as FSR
     ComboBox                    Search People...            Charles Kirk                index=5
     ComboBox                    Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday                      action=Move to Chosen
-    #ClickText                   Move selection to Chosen    Anchor=Available
-    #Sleep                       20s
-    #MultiPickList               Requested Delivery Days     Thursday
-    #ClickText                   Move selection to Chosen
+    #ClickText                  Move selection to Chosen    Anchor=Available
+    #Sleep                      20s
+    #MultiPickList              Requested Delivery Days     Thursday
+    #ClickText                  Move selection to Chosen
     #PickList                   Visit Frequency             Twice Per Week
     #MultiPickList              Visit Day(s)                Monday
     #ClickText                  Move selection to Chosen    anchor=Available
@@ -601,8 +601,9 @@ Select the first Case
     ClickText                   Select a List View: Cases
     ClickText                   General ISR Case Queue
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
-    ClickText                   More    anchor=Assign to Primary
-
+    ClickText                   Show more actions
+    ClickText                   Create NCR
+    UseModal                    On
 
 Create Merch Checklist
     [Documentation]             To create Merch Checklist
@@ -702,11 +703,11 @@ Create Data Driven Survey
     [Arguments]
     ClickText                   Data Driven Wins Surveys    anchor=Menu Surveys
     ClickText                   New Data Driven Wins Survey
-    TypeText                    What was the opportunity you saw at the account?    opportunity seen at the account    anchor=1    
-    TypeText                    Explain what Circana fact-based data you presented.                  circana fact based data presented    anchor=2
-    TypeText                    What was the result?                  result                        anchor=3
+    TypeText                    What was the opportunity you saw at the account?        opportunity seen at the account                         anchor=1
+    TypeText                    Explain what Circana fact-based data you presented.     circana fact based data presented                       anchor=2
+    TypeText                    What was the result?        result                      anchor=3
     ClickText                   Upload Files
-    UploadFile                  Upload Files                               /home/services/suite/MicrosoftTeams-image (56).png
+    UploadFile                  Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
     ClickText                   Finish Survey
     ClickText                   Close
 
@@ -741,12 +742,12 @@ Create Elite Survey
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
     MultiPickList               Were the Consultant 2.0 steps to a Sales Call followed?                             Prepare to make the call.
     ClickText                   Move selection to Selected
-    VerifyList                 Prepare to make the call.                        Selected                        
+    VerifyList                  Prepare to make the call.                               Selected
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
     ComboBox                    Sales Tools                 Elite Performance Sales Dashboard
     ClickText                   Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
-    #ClickText                   Capture Signature
+    #ClickText                  Capture Signature
     ClickText                   Next
     VerifyText                  Score:
     ClickText                   Finish
