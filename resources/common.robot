@@ -499,7 +499,7 @@ Draft Beer Calculator
     TypeText                    Velocity per Month (Number of Kegs)                     5
     ClickText                   Add a Product to Compare
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
-    TypeText                    Search by product name, item number, pkg type           mill                        Anchor=2
+    TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
     Sleep                       3s
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
