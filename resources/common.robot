@@ -314,8 +314,8 @@ Create NCR as FSR
     PickList                    Seasonal Close Month        June
     TypeText                    Special Instructions - Short                            ssss
     TypeText                    Special Instructions - Long                             llllll
-    PickList                    Company                     Florida Distributors        patial_match=False
-    PickList                    Warehouse                   Orlando
+    PickList                    Company                     Capital Distributing        patial_match=False
+    PickList                    Warehouse                   Austin
     PickList                    PDA Print UPC Barcode       To not print barcodes on the PDA pick tickets
     PickList                    UPC Print                   No UPC
     PickList                    Barcoded Invoice            Bottle UPC Barcode Sorting Sub by Item
