@@ -292,7 +292,7 @@ Create NCR as FSR
     ComboBox                    Search People...            Zachary Wilkins                index=3
     ComboBox                    Search People...            Zachary Wilkins                index=4
     ComboBox                    Search People...            Zachary Wilkins                index=5
-    ComboBox                    Search People...            Zachary Wilkins                index=6
+    #ComboBox                    Search People...            Zachary Wilkins                index=6
     MultiPickList               Requested Delivery Days     Monday                      action=Move to Chosen
     #ClickText                  Move selection to Chosen    Anchor=Available
     #Sleep                      20s
