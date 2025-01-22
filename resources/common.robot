@@ -192,7 +192,9 @@ Create NCR as ISR
     ClickText                   Show more results for "Independent"
     UseModal                    On
     UseTable                    Sort Chain Name
-    ClickText                   Independent
+    ClickText                   Select Item 1
+    ClickText                   Select                      partial_match=False
+    #ClickText                   Independent
     PickList                    Class                       Concessionaire
     PickList                    Sub Class                   Entertainment Venue
     PickList                    Civilian/Military           Civilian
@@ -209,9 +211,9 @@ Create NCR as ISR
     #ComboBox                   Search People...            Charles Kirk                index=5
     #ComboBox                   Search People...            Charles Kirk                index=6
     MultiPickList               Requested Delivery Days     Monday                      action=Move to Chosen
-    #ClickText                   Move selection to Chosen
+    #ClickText                  Move selection to Chosen
     MultiPickList               Requested Delivery Days     Thursday                    action=Move to Chosen
-    #ClickText                   Move selection to Chosen
+    #ClickText                  Move selection to Chosen
     #PickList                   Visit Frequency             Twice Per Week
     #MultiPickList              Visit Day(s)                Monday
     #ClickText                  Move selection to Chosen    anchor=Available
@@ -288,11 +290,11 @@ Create NCR as FSR
     PickList                    Patron Age Code             General Pop
     PickList                    Residence                   Local
     ComboBox                    Search People...            Zachary Wilkins
-    ComboBox                    Search People...            Zachary Wilkins                index=2
-    ComboBox                    Search People...            Zachary Wilkins                index=3
-    ComboBox                    Search People...            Zachary Wilkins                index=4
-    ComboBox                    Search People...            Zachary Wilkins                index=5
-    #ComboBox                    Search People...            Zachary Wilkins                index=6
+    ComboBox                    Search People...            Zachary Wilkins             index=2
+    ComboBox                    Search People...            Zachary Wilkins             index=3
+    ComboBox                    Search People...            Zachary Wilkins             index=4
+    ComboBox                    Search People...            Zachary Wilkins             index=5
+    #ComboBox                   Search People...            Zachary Wilkins             index=6
     MultiPickList               Requested Delivery Days     Monday                      action=Move to Chosen
     #ClickText                  Move selection to Chosen    Anchor=Available
     #Sleep                      20s
@@ -499,7 +501,7 @@ Draft Beer Calculator
     TypeText                    Velocity per Month (Number of Kegs)                     5
     ClickText                   Add a Product to Compare
     ClickCheckbox               Use Reyes Product?YesNo     on                          Anchor=2
-    TypeText                    Search by product name, item number, pkg type           New                        Anchor=2
+    TypeText                    Search by product name, item number, pkg type           New                         Anchor=2
     Sleep                       3s
     ClickElement                xpath\=//*[@class\='slds-listbox__option-text slds-listbox__option-text_entity slds-cell-wrap']
     TypeText                    Price per Serving (Price to Consumer)                   110                         Anchor=2
@@ -616,7 +618,7 @@ Select the Dupe first Case
     ClickText                   Select a List View: Cases
     ClickText                   Dupe report queue
     ClickElement                xpath=(//a[@data-refid\="recordId"])[1]
-    
+
 Create Merch Checklist
     [Documentation]             To create Merch Checklist
     [Arguments]
@@ -753,12 +755,12 @@ Create Elite Survey
     DropDown                    *Is the back room clean and organized?*                 Yes
     DropDown                    *Does RBG have any controllable Out of Stocks?          Yes
     DropDown                    Is E360 updated with current buyer contact/email info?                              Yes
-    MultiPickList               Were the Consultant 2.0 steps to a Sales Call followed?                             Prepare to make the call.    action=Move to Selected
-    #ClickText                   Move selection to Selected
-    #VerifyList                  Prepare to make the call.                               Selected
+    MultiPickList               Were the Consultant 2.0 steps to a Sales Call followed?                             Prepare to make the call.                  action=Move to Selected
+    #ClickText                  Move selection to Selected
+    #VerifyList                 Prepare to make the call.                               Selected
     DropDown                    *Were any existing sales tools used to secure features or distribution during sales?                            Yes
-    MultiPickList                    Sales Tools                 Elite Performance Sales Dashboard                        action=Move to Selected
-    #ClickText                   Move selection to Selected                              anchor=Available
+    MultiPickList               Sales Tools                 Elite Performance Sales Dashboard                       action=Move to Selected
+    #ClickText                  Move selection to Selected                              anchor=Available
     ClickText                   Next                        anchor=Previous
     #ClickText                  Capture Signature
     ClickText                   Next
@@ -837,9 +839,9 @@ Create Order on a Case
     Select the Dupe first Case
     ClickText                   New Order
     Select Future Date          4 days                      Delivery Date
-    ClickText                   Select Origin               
+    ClickText                   Select Origin
     ClickText                   Email To Order
-    Sleep                       5s              
+    Sleep                       5s
     ClickText                   Order Products
     UseTable                    SortProduct Nameicon
     #ClickCell                  r1c8
