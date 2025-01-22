@@ -192,10 +192,7 @@ Create NCR as ISR
     ClickText                   Show more results for "Independent"
     UseModal                    On
     UseTable                    Sort Chain Name
-    ClickElement                INDEPENDENT      tag=radiobutton
-    #ClickText                   Select Item 1
-    #ClickText                   Select                      partial_match=False
-    #ClickText                   Independent
+    ClickText                   Independent
     PickList                    Class                       Concessionaire
     PickList                    Sub Class                   Entertainment Venue
     PickList                    Civilian/Military           Civilian
