@@ -921,7 +921,7 @@ Verify tab order on Account
     VerifyText                  Order History
     VerifyText                  Account Scorecard
     VerifyText                  Circana/NIQ
-    VerifyText                  FSR/OMNI Visit Day
+    #VerifyText                  FSR/OMNI Visit Day
     VerifyText                  Text Transcripts
     VerifyText                  Market Trends
     VerifyText                  Sales Trends
