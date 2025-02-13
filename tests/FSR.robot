@@ -28,7 +28,7 @@ Reyes Beverages App
     VerifyText            Awaiting Manager Approval
     Create Elite Survey
     Create Data Driven Survey
-    Create Non-Alc Cooler Lead Survey
+    Create Non Alc Cooler Lead Survey
     Create Merch Checklist
     ClickText                   More                        Anchor=2
     ClickText                   Profit Calculator
