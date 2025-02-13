@@ -804,7 +804,7 @@ Create Failed Scan
     ClickElement                xpath\=//*[@class\='slds-select']
     #PickList                   Failed Scan Reason          Item Not Scanning / Not Found / Not on File
     DropDown                    *                           Item Not Scanning / Not Found / Not on File
-    ClickText                   Next
+    TypeText                   Comments                     Comments
     DropDown                    Is this item in the schematic?                          YES
     ClickText                   Next
     #UploadFile                 Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
