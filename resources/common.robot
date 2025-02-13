@@ -724,7 +724,7 @@ Create Data Driven Survey
     ClickText                   Finish Survey
     ClickText                   Close
     
-Create Non-Alc Cooler Survey
+Create Non-Alc Cooler Lead Survey
     [Documentation]             Create data driven survey
     [Arguments]
     ClickText    Non-Alc Cooler Lead Survey    anchor=Menu Surveys
