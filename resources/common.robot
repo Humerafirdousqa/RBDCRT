@@ -787,8 +787,8 @@ Create Failed Scan
     ClickText                   New Failed Scan
     UseModal                    On
     ClickElement                xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
-    TypeText                    Account                     39 Ocean Prime
-    ComboBox                    Search Accounts...          \# 39 OCEAN PRIME ORLANDO
+    TypeText                    Account                     CVS PHARMACY
+    ComboBox                    Search Accounts...          CVS PHARMACY \#10337
     DropDown                    *                           Vendor Information Incorrect or Pricing Issue
     TypeText                    *                           comments
     ClickText                   Next
@@ -799,8 +799,8 @@ Create Failed Scan
     ClickText                   New Failed Scan
     UseModal                    On
     ClickElement                xpath\=//*[@class\='slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right']
-    TypeText                    Account                     39 Ocean Prime
-    ComboBox                    Search Accounts...          \# 39 OCEAN PRIME ORLANDO
+    TypeText                    Account                     CVS PHARMACY
+    ComboBox                    Search Accounts...          CVS PHARMACY \#10337
     ClickElement                xpath\=//*[@class\='slds-select']
     #PickList                   Failed Scan Reason          Item Not Scanning / Not Found / Not on File
     DropDown                    *                           Item Not Scanning / Not Found / Not on File
