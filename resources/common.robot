@@ -807,8 +807,8 @@ Create Failed Scan
     TypeText                   Comments                     Comments
     DropDown                    Is this item in the schematic?                          YES
     ClickText                   Next
-    #UploadFile                 Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
-    #ClickText                  Next
+    UploadFile                 Upload Files                /home/services/suite/MicrosoftTeams-image (56).png
+    ClickText                  Next
     ClickText                   Finish
     UseModal                    Off
 
